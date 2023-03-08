@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/navbar/Navbar';
+import Main from './components/main/Main';
+import React,{useState} from 'react';
 
 function App() {
+  const [modebg, setModebg] = useState('bgLight');
+  const [modeNav, setModenav] = useState('light');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar bgNav={modeNav}/>
+      <Main bgMode={modebg}/>
+      <button onClick={()=>{ 
+          modebg=='bgLight' ? setModebg('bgDark'):setModebg('bgLight');
+          modeNav=='light' ? setModenav('dark'):setModenav('light');
+        }}>changecolor
+      </button>
+    </>
   );
 }
 
