@@ -1,11 +1,3 @@
-.bgLight{
-  background-color: rgb(255, 249, 240);
-}
-
-.bgDark{
-  background-color: rgb(26, 26, 26);
-}
-
 .secBaner{
   position: relative;
 }
@@ -35,7 +27,6 @@
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  background-color: aqua;
 }
 
 .cardGir:hover .cardGirContenido{
@@ -47,13 +38,19 @@
   width: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+.bgCardGirDark{
   background-color: #313131;
 }
 
+.bgCardGirLight{
+  background-color: rgb(135, 255, 124);
+}
 .cardGir-trasero{
   transform: rotateY(180deg);
 }
 
-.bgCard{
-  background-color: rgb(39, 37, 37);
-}
+
+
+

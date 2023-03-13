@@ -1,0 +1,63 @@
+.bgSkill-Light{
+  background-color: rgba(135, 255, 124, 0.661);
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px;
+}
+
+.bgSkill-Dark{
+  background-color: rgb(70, 70, 70);
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px;
+}
+
+.lineaColLight{
+  border-right: solid rgb(56, 56, 56) 4px;
+}
+
+.lineaColDark{
+  border-right: solid rgb(239, 239, 239) 4px;
+}
+
+.colText{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.divSkill, .imgSkill img{
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.imgSkill{
+  position: relative;
+}
+
+.pafec{
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  z-index: 0;
+  opacity: 0%;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.775);
+  border-radius: 8px;
+}
+
+.divSkill:hover{
+  transform: scale(110%);
+}
+
+.imgSkill img:hover{
+  transform: rotateY(360deg);
+  filter: blur(5px);
+  
+}
+
+.imgSkill img:hover + .pafec{
+  opacity: 100%;
+}
