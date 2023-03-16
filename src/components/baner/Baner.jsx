@@ -9,9 +9,9 @@ function Baner(props){
   return(
     <>
     <section className={`secBaner bg${bgMode}`}>
-      <Container fluid className='px-5 containerBaner'>
+      <Container fluid className='px-5 containerBaner d-none d-md-block'>
         <Row className='justify-content-around'>
-          <Col lg={3} className='cardGir'>
+          <Col md={4} lg={3} className='cardGir'>
             <div className={`cardGirContenido text-center text-${textMode}`}>
               <div className={`cardGir-frente bgCardGir${bgMode} rounded py-3`}>
                 <h2>Proyectos</h2>
@@ -25,11 +25,11 @@ function Baner(props){
               </div>
             </div>
           </Col>
-          <Col lg={3} className='cardGir'>
+          <Col md={4} lg={3} className='cardGir'>
             <div className={`cardGirContenido text-center text-${textMode}`}>
               <div className={`cardGir-frente bgCardGir${bgMode} rounded py-3`}>
                 <h2>Skills</h2>
-                <h5>10 habilidades</h5>
+                <h5>18 habilidades</h5>
               </div>
               <div className={`cardGir-trasero bgCardGir${bgMode} rounded py-3`}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-code-square" viewBox="0 0 16 16">
@@ -40,7 +40,7 @@ function Baner(props){
               </div>
             </div>
           </Col>
-          <Col lg={3} className='cardGir'>
+          <Col md={4} lg={3} className='cardGir'>
             <div className={`cardGirContenido text-center text-${textMode}`}>
               <div className={`cardGir-frente bgCardGir${bgMode} rounded py-3`}>
                 <h2>Nivel</h2>
@@ -58,9 +58,9 @@ function Baner(props){
         </Row>
       </Container>
       <section className='bgBaner'>
-        <Row className='justify-content-between py-5 vw-100'>
-          <Col lg={7} className='text-white ps-5 animate__animated animate__fadeInLeft'><h2 className='ps-5'>Hola! soy Leonel</h2><h3 className='ps-5'>Web developer. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.</h3></Col>
-          <Col lg={5} className='d-flex justify-content-center animate__animated animate__zoomIn'>
+        <Row className='justify-content-md-between py-3 py-md-5 vw-100 flex-column-reverse flex-md-row'>
+          <Col sm={12} md={8} lg={7} className='text-white ps-md-3 ps-lg-5 animate__animated animate__fadeInLeft mt-3 mt-md-0'><h2 className='ps-md-5 text-center text-md-start'>Hola! soy Leonel 👋</h2><h3 className='ps-5 d-none d-md-block'>Web developer. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.</h3></Col>
+          <Col sm={12} md={4} lg={5} className='d-flex justify-content-center animate__animated animate__zoomIn'>
             <Image src={Foto} roundedCircle={true} width='190px'></Image>
           </Col>
         </Row>

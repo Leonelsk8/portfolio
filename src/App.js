@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <NavBar bgNav={modeNav} buttMode={modeChange}/>
-      <section className={`bg${modebg}`}>
+      <section className={`bg${modebg} secPrin`}>
         <Baner bgMode={modebg} modeText={modeText}/>
         <SectionBio bgMode={modebg} modeText={modeText}/>
         <SectionSkill bgMode={modebg} modeText={modeText}/>

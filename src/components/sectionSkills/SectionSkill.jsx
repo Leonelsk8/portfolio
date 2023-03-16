@@ -31,12 +31,13 @@ const SectionSkill = (props) => {
 
 
   return (
-    <section className={`text-${textMode}`}>
-      <h2 className='text-center mb-5'>My Skills</h2>
+    <section className={`text-${textMode} sectionSkill`}>
+      <h1 className='text-center mb-5'>My Skills</h1>
       <Container fluid>
-        <Row>
-          <Col lg={6} className={`lineaCol${bgMode}`}>
-            <div className={`d-flex p-5 m-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`} data-aos="fade-right">
+        <Row className='justify-content-center'>
+          <Col md={10} lg={6} xl={6} xll={6} className={`lineaCol${bgMode} mb-5 mb-lg-0`}>
+            <h2 className='d-lg-none text-center mb-4'>Lenguajes</h2>
+            <div className={`d-flex p-5 m-lg-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`} data-aos="fade-right">
               <div className='imgSkill' onMouseEnter={()=> setHover(1)} onMouseLeave={() =>setHover(null)}>
                 <Image src={Html} width={'100px'} height={'auto'} className={hover==1 ? 'imageS m-3' : 'm-3'}></Image>
                 <p className={hover==1 ? 'pafec' : 'd-none'}>HTML</p>
@@ -63,18 +64,19 @@ const SectionSkill = (props) => {
               </div>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} xl={6} xll={6} className='d-none d-lg-block'>
             <div className={`colText`}>
               <h1>Lenguajes</h1>
             </div>
           </Col>
-          <Col lg={6} className={`lineaCol${bgMode}`}>
+          <Col lg={6} xl={6} xll={6} className={`lineaCol${bgMode} d-none d-lg-block`}>
           <div className={`colText`}>
               <h1>Frameworks</h1>
             </div>
           </Col>
-          <Col lg={6}>
-            <div data-aos="fade-left" className={`d-flex p-5 m-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`}>
+          <Col md={10} lg={6} xl={6} xll={6} className='mb-5 mb-lg-0'>
+            <h2 className='d-lg-none text-center mb-4'>Frameworks</h2>
+            <div data-aos="fade-left" className={`d-flex p-5 m-lg-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`}>
               <div className='imgSkill' onMouseEnter={()=> setHover(7)} onMouseLeave={() =>setHover(null)}>
                 <Image src={reactLogo} width={'100px'} height={'100px'} className={hover==7 ? 'imageS m-3' : 'm-3'}></Image>
                 <p className={hover==7 ? 'pafec' : 'd-none'}>REACT</p>
@@ -93,8 +95,9 @@ const SectionSkill = (props) => {
               </div>
             </div>
           </Col>
-          <Col lg={6} className={`lineaCol${bgMode}`}>
-            <div className={`d-flex p-5 m-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`} data-aos="fade-right">
+          <Col md={10} lg={6} xl={6} xll={6} className={`lineaCol${bgMode} mb-5 mb-lg-0`}>
+            <h2 className='d-lg-none text-center mb-4'>Herramientas</h2>
+            <div className={`d-flex p-5 m-lg-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`} data-aos="fade-right">
               <div className='imgSkill' onMouseEnter={()=> setHover(11)} onMouseLeave={() =>setHover(null)}>
                 <Image src={Node} width={'100px'} height={'100px'} className={hover==11 ? 'imageS m-3' : 'm-3'}></Image>
                 <p className={hover==11 ? 'pafec' : 'd-none'}>NodeJS</p>
@@ -121,18 +124,19 @@ const SectionSkill = (props) => {
               </div>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} xl={6} xll={6} className='d-none d-lg-block'>
             <div className={`colText`}>
               <h1>Herramientas</h1>
             </div>
           </Col>
-          <Col lg={6} className={`lineaCol${bgMode}`}>
+          <Col lg={6} xl={6} xll={6} className={`lineaCol${bgMode} d-none d-lg-block`}>
           <div className={`colText`}>
               <h1>Base de datos</h1>
             </div>
           </Col>
-          <Col lg={6}>
-            <div data-aos="fade-left" className={`d-flex p-5 m-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`}>
+          <Col md={10} lg={6} xl={6} xll={6} className='mb-5 mb-lg-0'>
+            <h2 className='d-lg-none text-center mb-4'>Base de datos</h2>
+            <div data-aos="fade-left" className={`d-flex p-5 m-lg-5 bgSkill-${bgMode} flex-wrap justify-content-center divSkill`}>
               <div className='imgSkill' onMouseEnter={()=> setHover(17)} onMouseLeave={() =>setHover(null)}>
                 <Image src={Mongo} width={'100px'} height={'auto'} className={hover==17 ? 'imageS m-3' : 'm-3'}></Image>
                 <p className={hover==17 ? 'pafec' : 'd-none'}>MongoDB</p>

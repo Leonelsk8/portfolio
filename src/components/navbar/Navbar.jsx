@@ -6,7 +6,7 @@ function NavBar(props){
   const modeChange = props.buttMode;
   return(
     <Navbar bg={bgNav} expand="lg" variant={bgNav} className={`border-bottom border-secondary py-2`}>
-      <Container fluid className='px-5'>
+      <Container fluid className='px-2 px-md-4'>
         <Navbar.Brand href="#home">Portfolio - Leonel</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

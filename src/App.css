@@ -26,8 +26,12 @@
   }
 
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-image: url('./assets/bgLight.jpg');
+}
+
+.secPrin{
+  overflow-x: hidden;
 }
 
 .bgLight{

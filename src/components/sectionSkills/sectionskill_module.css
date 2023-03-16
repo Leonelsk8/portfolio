@@ -55,3 +55,15 @@
   transform: rotateY(360deg);
   filter: blur(5px);
 }
+
+
+
+@media (width < 992px){
+  .lineaColLight{
+    border-right: solid rgb(56, 56, 56) 0px;
+  }
+  
+  .lineaColDark{
+    border-right: solid rgb(239, 239, 239) 0px;
+  }
+}
