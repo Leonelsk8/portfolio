@@ -3,6 +3,28 @@
   padding: 0;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0f0f0f #cccccc;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #0f0f0f;
+    border-radius: 32px;
+    border: 1px solid #ffffff;
+  }
+
 body{
   overflow-x: hidden;
   background-image: url('./assets/bgLight.jpg');

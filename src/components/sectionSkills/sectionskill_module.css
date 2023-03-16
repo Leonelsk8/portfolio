@@ -30,34 +30,28 @@
   position: relative;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  cursor: pointer;
 }
 
 .imgSkill{
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .pafec{
   position: absolute;
-  top: 45%;
-  left: 25%;
   z-index: 0;
-  opacity: 0%;
   font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.775);
+  background-color: rgba(0, 0, 0, 0.598);
   border-radius: 8px;
+  color: white;
+  padding: 10px 5px;
+  margin-top: 15px;
 }
 
-.divSkill:hover{
-  transform: scale(110%);
-}
-
-.imgSkill img:hover{
+.imageS{
   transform: rotateY(360deg);
   filter: blur(5px);
-  
-}
-
-.imgSkill img:hover + .pafec{
-  opacity: 100%;
 }

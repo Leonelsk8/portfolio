@@ -6,6 +6,7 @@ import React,{useState} from 'react';
 import SectionBio from './components/sectionBio/SectionBio';
 import SectionSkill from './components/sectionSkills/SectionSkill';
 
+
 function App() {
   const [modebg, setModebg] = useState('Light');
   const [modeNav, setModenav] = useState('light');
