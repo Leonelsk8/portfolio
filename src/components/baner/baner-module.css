@@ -50,6 +50,25 @@
   transform: rotateY(180deg);
 }
 
+.selectDiv{
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  background-color: #222222be;
+  border: solid 1px #fff;
+}
+
+.selectLan {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  padding: 2px 4px;
+}
 
 
-
+.selectLan option {
+  background-color: #222;
+  color: #fff;
+  border: none;
+}

@@ -13,7 +13,7 @@ function NavBar(props){
           <Nav className="ms-auto">
             <Nav.Link className='active' href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Contact</Nav.Link>
-            <label class="interruptor">
+            <label className="interruptor">
               <input type="checkbox" onClick={modeChange}/>
               <span><ion-icon name="moon-outline" class="moon"></ion-icon></span>
             </label>

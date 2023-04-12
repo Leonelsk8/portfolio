@@ -1,0 +1,38 @@
+{
+  "Baner":{
+    "SaludBaner": "Hola! soy Leonel 👋",
+    "DescBaner": "Web developer. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.",
+    "table1": "Proyectos",
+    "table2": "Habilidades",
+    "table3": "Nivel",
+    "tableOption": "Ir a la sección",
+    "done": "3 Hechos",
+    "skill": "18 Habilidades",
+    "optionEn": "Inglés",
+    "optionEs": "Español"
+  },
+  "Bio":{
+    "welcome": "Bienvenido a mi portafolio 😄",
+    "infoone": "Me llamo Leonel Gomez, soy un desarrollador web Full-Stack. Certificado en Rolling Code School y ex estudiante en Ingeniaría de sistemas.",
+    "infotwo": "Actualmente en busca de mi primer trabajo como programador, dispuesto adaptarme a todas las tareas laborales y dar lo mejor de mí siempre.",
+    "listTitle1": "Idíomas:",
+    "listTitle2": "Metodologías ágiles:",
+    "listTitle3": "Metodologías de desarrollo:",
+    "liIdiom1": "Español Nativo",
+    "liIdiom2": "Inglés Básico",
+    "liIdiom3": "Francés Básico"
+  },
+  "Skills":{
+    "title": "Mis Habilidades",
+    "subtitle1": "Lenguajes",
+    "subtitle2": "Frameworks",
+    "subtitle3": "Herramientas",
+    "subtitle4": "Base de datos"
+  },
+  "Proj":{
+    "projects": "Proyectos",
+    "logic": "Logica",
+    "dateLan": 0
+  }
+
+}

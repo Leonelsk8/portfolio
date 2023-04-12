@@ -7,6 +7,8 @@ import CV from './CURRICULUM.pdf';
 const SectionBio = (props) => {
   const bgMode = props.bgMode;
   const textMode = props.modeText;
+  const idiom = props.lang;
+
   return (
     <section className={`pt-5 pb-3`}>
       <Container fluid>
@@ -18,21 +20,21 @@ const SectionBio = (props) => {
               </Col>
               <Col sm={12} md={12} lg={7} xl={8}>
                 <div className='px-2 px-md-0'> 
-                  <h1>Bienvenido a mi portafolio 😄</h1>
-                  <h5>Me llamo Leonel Gomez, soy un desarrollador web Full-Stack. Certificado en Rolling Code School y ex estudiante en Ingeniaría de sistemas.<br></br>Actualmente en busca de mi primer trabajo como programador, dispuesto adaptarme a todas las tareas laborales y dar lo mejor de mí siempre.</h5>
+                  <h1>{idiom.Bio.welcome}</h1>
+                  <h5>{idiom.Bio.infoone}<br></br>{idiom.Bio.infotwo}</h5>
                   <a className='btn btn-danger' href={CV} target={'_blank'}>My CV pdf</a>
                 </div>
                 <div className='mt-4 d-flex flex-wrap justify-content-between'>
                   <div className='pe-3 pe-md-0'>
-                    <h5>Idíomas:</h5>
+                    <h5>{idiom.Bio.listTitle1}</h5>
                     <ul className='ps-3'>
-                      <li>Español - Nativo</li>
-                      <li>Inglés - Intermedio</li>
-                      <li>Francés - Básico</li>
+                      <li>{idiom.Bio.liIdiom1}</li>
+                      <li>{idiom.Bio.liIdiom2}</li>
+                      <li>{idiom.Bio.liIdiom3}</li>
                     </ul>
                   </div>
                   <div className='pe-3 pe-md-0'>
-                    <h5>Metodologías ágiles:</h5>
+                    <h5>{idiom.Bio.listTitle2}</h5>
                     <ul className='ps-3'>
                       <li>Scrum</li>
                       <li>Kanban</li>
@@ -41,7 +43,7 @@ const SectionBio = (props) => {
                     </ul>
                   </div>
                   <div>
-                  <h5>Metodologías de desarrollo:</h5>
+                  <h5>{idiom.Bio.listTitle3}</h5>
                     <ul className='ps-3'>
                       <li>BEM</li>
                       <li>SMACSS</li>

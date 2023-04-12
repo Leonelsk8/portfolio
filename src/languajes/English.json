@@ -1,0 +1,37 @@
+{
+  "Baner":{
+    "SaludBaner": "Hi! i'am Leonel 👋",
+    "DescBaner": "Web developer. Passionate about programming, I want to improve myself every day and meet the expectations of my superiors.",
+    "table1": "Projects",
+    "table2": "Skills",
+    "table3": "Level",
+    "tableOption": "Go to section",
+    "done": "3 Done",
+    "skill": "18 Skills",
+    "optionEn": "English",
+    "optionEs": "Spanish"
+  },
+  "Bio":{
+    "welcome": "welcome to my portfolio 😄",
+    "infoone": "My name is Leonel Gomez, I am a Full-Stack web developer. Certified in Rolling Code School and former student in Systems Engineering.",
+    "infotwo": "Currently looking for my first job as a programmer, willing to adapt to all work tasks and always give my best.",
+    "listTitle1": "Languages:",
+    "listTitle2": "Agile methodologies:",
+    "listTitle3": "Development methodologies:",
+    "liIdiom1": "Native Spanish",
+    "liIdiom2": "Basic English",
+    "liIdiom3": "Basic French"
+  },
+  "Skills":{
+    "title": "My Skills",
+    "subtitle1": "Languages",
+    "subtitle2": "Frameworks",
+    "subtitle3": "Tools",
+    "subtitle4": "Database"
+  },
+  "Proj":{
+    "projects": "Projects",
+    "logic": "Logic",
+    "dateLan": 1
+  }
+}

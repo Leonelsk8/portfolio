@@ -1,0 +1,100 @@
+.but-white{
+  color: #bcbcbc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.but-dark{
+  color: #797979;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active-white{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active-dark{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.but-white:hover, .active-white:hover{
+  color: #fff;
+}
+
+.but-dark:hover, .active-dark:hover{
+  color: #000000;
+}
+
+.proj{
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.proj:hover{
+  transform: scale(110%);
+}
+
+.modalProj{
+  background-color: rgba(0, 0, 0, 0.347);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+
+
+.modalDialog{
+  background-color: #2e2e2e;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.headerModal{
+  position: relative;
+}
+
+.botonModa{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.botonmodal{
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+.botonmodal:hover{
+  color: rgb(151, 151, 151);
+}
+
+video{
+  width: 33%;
+}
+
+
+
+@media (768px <= width < 992px){
+  video{
+    width: 50%;
+  }
+}
+
+@media (width < 768px){
+  video{
+    width: 100%;
+  }
+  .divVideos{
+    max-height: 65%;
+    overflow-y: scroll;
+  }
+}
