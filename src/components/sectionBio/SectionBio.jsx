@@ -12,7 +12,7 @@ const SectionBio = (props) => {
   return (
     <section className={`pt-5 pb-3`}>
       <Container fluid>
-        <Row className='justify-content-center'>
+        <Row className='justify-content-center' id="seccion1">
           <Col sm={12} md={12} lg={12} xl={12} xll={12} className={`bgCard${bgMode} text-${textMode} my-5 py-5 px-md-5`}>
             <Row>
               <Col lg={5} xl={4} className='d-none d-lg-flex align-items-center justify-content-center'>

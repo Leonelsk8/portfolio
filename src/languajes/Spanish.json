@@ -14,7 +14,7 @@
   "Bio":{
     "welcome": "Bienvenido a mi portafolio 😄",
     "infoone": "Me llamo Leonel Gomez, soy un desarrollador web Full-Stack. Certificado en Rolling Code School y ex estudiante en Ingeniaría de sistemas.",
-    "infotwo": "Actualmente en busca de mi primer trabajo como programador, dispuesto adaptarme a todas las tareas laborales y dar lo mejor de mí siempre.",
+    "infotwo": "Actualmente Junior, buscando más experiencia laboral, tengo conocimientos de programación avanzadas, estoy dispuesto adaptarme a cualquier tarea y enfrentar todo tipo de retos, quiero dar lo mejor de mí siempre.",
     "listTitle1": "Idíomas:",
     "listTitle2": "Metodologías ágiles:",
     "listTitle3": "Metodologías de desarrollo:",
@@ -33,6 +33,27 @@
     "projects": "Proyectos",
     "logic": "Logica",
     "dateLan": 0
+  },
+  "Foot":{
+    "info": "Me considero alguién muy prolijo con el código y muy eficaz, buscando siempre la mejor optimización de mis trabajos y una excelente calidad, la adecuada como una web moderna. Este portafolio está hecho con React.",
+    "RS": "Redes Sociales",
+    "slim1": "Gracias por visitar mi portafolio!! 🤠",
+    "slim2": "Te regalo un cefécito de todo programador ☕"
+  },
+  "Nav":{
+    "home": "Inicio",
+    "contact": "Contáctame"
+  },
+  "form":{
+    "titleSuccess": "Formulario enviado",
+    "textSuccess": "Gracias por contactarme!!",
+    "titleError": "Error",
+    "textError": "Hubo un problema al enviar el formulario, comprueba el email",
+    "name": "Nombre",
+    "messag": "Mensaje",
+    "but": "Enviar",
+    "close": "Cerrar",
+    "titleMod": "Contacto"
   }
 
 }

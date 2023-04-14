@@ -91,4 +91,47 @@ body{
   color: white;
 }
 
+.Foot-Link{
+  text-decoration: none;
+  color: #bebebe;
+}
 
+.Foot-Link:hover{
+  color: #fff;
+}
+
+.SlimFoot{
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  background-color: rgba(24, 224, 238, 0.995);
+  top: 0;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  animation: fotAni normal 1.5s;
+  border-bottom: rgb(247, 247, 247) 3px solid;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.fotoFoot{
+  cursor: pointer;
+}
+
+@keyframes fotAni {
+  0%{
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  30%{
+    top: 0;
+  }
+  100%{
+    width: 100%;
+    height: 60%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+}

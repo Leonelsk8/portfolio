@@ -29,7 +29,9 @@ const SectionProjects = (props) => {
   }
 
   const logic = () =>{
-
+    return(
+      <h2 className={`text-center text-${textMode}`}>No hay resultados</h2>
+    )
   }
 
   function modalClose(){
@@ -39,19 +41,19 @@ const SectionProjects = (props) => {
   return (
     <section className='py-5'>
       <Container>
-        <Row>
+        <Row id="seccion3">
           <Col lg={12} className='text-center'>
             <div className={`text-${textMode}`}>
               <h1>{idiom.Proj.projects}</h1>
             </div>
             <div className='mt-4'>
-              <a type='button' className={project==0 ? `active-${textMode} me-3` : `but-${textMode} me-3`} onClick={()=>setProject(0)}>{idiom.Proj.projects}</a>
-              <a type='button' className={project==1 ? `active-${textMode}` : `but-${textMode}`} onClick={()=>setProject(1)}>{idiom.Proj.logic}</a>
+              <a type='button' className={project===0 ? `active-${textMode} me-3` : `but-${textMode} me-3`} onClick={()=>setProject(0)}>{idiom.Proj.projects}</a>
+              <a type='button' className={project===1 ? `active-${textMode}` : `but-${textMode}`} onClick={()=>setProject(1)}>{idiom.Proj.logic}</a>
             </div>
           </Col>
           <Col lg={12} className='mt-3'>
             {
-              project==0 ? proj() : logic()
+              project===0 ? proj() : logic()
             }
           </Col>
         </Row>        

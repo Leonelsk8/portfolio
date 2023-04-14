@@ -44,7 +44,7 @@
 }
 
 .bgCardGirLight{
-  background-color: rgb(135, 255, 124);
+  background-color: rgb(24, 224, 238);
 }
 .cardGir-trasero{
   transform: rotateY(180deg);
@@ -71,4 +71,9 @@
   background-color: #222;
   color: #fff;
   border: none;
+}
+
+.linkGoSec{
+  width: 100%;
+  height: 100%;
 }

@@ -14,7 +14,7 @@
   "Bio":{
     "welcome": "welcome to my portfolio 😄",
     "infoone": "My name is Leonel Gomez, I am a Full-Stack web developer. Certified in Rolling Code School and former student in Systems Engineering.",
-    "infotwo": "Currently looking for my first job as a programmer, willing to adapt to all work tasks and always give my best.",
+    "infotwo": "Currently Junior, looking for more work experience, I have advanced programming knowledge, I am willing to adapt to any task and face all kinds of challenges, I always want to give my best.",
     "listTitle1": "Languages:",
     "listTitle2": "Agile methodologies:",
     "listTitle3": "Development methodologies:",
@@ -33,5 +33,26 @@
     "projects": "Projects",
     "logic": "Logic",
     "dateLan": 1
+  },
+  "Foot":{
+    "info": "I consider myself someone who is very neat with the code and very efficient, always looking for the best optimization of my work and excellent quality, adequate for a modern website. This portfolio is made with React.",
+    "RS": "Social networks",
+    "slim1": "Thanks for visiting my portfolio!! 🤠",
+    "slim2": "I give you a coffee from every programmer ☕"
+  },
+  "Nav":{
+    "home": "Home",
+    "contact": "Contact"
+  },
+  "form":{
+    "titleSuccess": "Submitted form",
+    "textSuccess": "Thanks for contacting me!!",
+    "titleError": "Error",
+    "textError": "There was a problem submitting the form, check your email",
+    "name": "Name",
+    "messag": "Message",
+    "but": "Send",
+    "close": "Close",
+    "titleMod": "Contact"
   }
 }
