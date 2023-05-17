@@ -11,10 +11,10 @@ import SectionProjects from './components/sectionProjects/SectionProjects';
 import Footer from './components/footer/Footer';
 
 function App() {
-  const [modebg, setModebg] = useState('Light');
-  const [modeNav, setModenav] = useState('light');
-  const [modeText, setModetext] = useState('dark');
-  const [language, setLang] = useState(eng);
+  const [modebg, setModebg] = useState('Dark');
+  const [modeNav, setModenav] = useState('dark');
+  const [modeText, setModetext] = useState('white');
+  const [language, setLang] = useState(esp);
   const modeChange= ()=>{
     modebg==='Light' ? setModebg('Dark'):setModebg('Light');
     modeNav==='light' ? setModenav('dark'):setModenav('light');

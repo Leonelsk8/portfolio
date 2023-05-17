@@ -11,7 +11,7 @@ function Baner(props){
   const textMode = props.modeText;
   const idiom = props.lang;
   const langMode = props.langMode;
-  const [idioma, setIdioma] = useState('eng');
+  const [idioma, setIdioma] = useState('esp');
 
   function handleChange(event) {
     const valor = event.target.value;
@@ -24,7 +24,7 @@ function Baner(props){
     <section className={`secBaner bg${bgMode}`}>
       <div className='selectDiv d-flex align-items-center'>
         <label htmlFor="Select-Lang" className='pe-1'><img src={idioma==='eng' ? en : es} width='30px' alt="en"/></label>
-        <select onChange={handleChange} className='selectLan' id='Select-Lang'>
+        <select onChange={handleChange} defaultValue={'esp'} className='selectLan' id='Select-Lang'>
           <option value="eng">{idiom.Baner.optionEn}</option>
           <option value="esp">{idiom.Baner.optionEs}</option>
         </select>

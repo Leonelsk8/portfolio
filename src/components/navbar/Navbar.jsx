@@ -49,7 +49,7 @@ function NavBar(props){
             <Nav.Link className='active' href="#home">{lang.Nav.home}</Nav.Link>
             <Nav.Link href="#link" className="me-lg-2" data-bs-toggle="modal" data-bs-target="#exampleModalNav">{lang.Nav.contact}</Nav.Link>
             <label className="interruptor">
-              <input type="checkbox" onClick={modeChange}/>
+              <input type="checkbox" onChange={()=>{modeChange()}} checked={bgNav === 'dark' ? true : false}/>
               <span><ion-icon name="moon-outline" className="moon"></ion-icon></span>
             </label>
           </Nav>
