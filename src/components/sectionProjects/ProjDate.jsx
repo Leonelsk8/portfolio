@@ -6,6 +6,11 @@ import proj2Vid2 from '../../assets/project2Video2.mp4';
 import proj3Vid1 from '../../assets/project3Video1.mp4';
 import proj3Vid2 from '../../assets/project3Video2.mp4';
 import proj3Vid3 from '../../assets/project3Video3.mp4';
+import proj4Vid1 from '../../assets/project4Video1.mp4';
+import proj4Vid2 from '../../assets/project4Video2.mp4';
+import proj4Vid3 from '../../assets/project4Video3.mp4';
+import proj5Vid1 from '../../assets/project5Video1.mp4';
+import proj5Vid2 from '../../assets/project5Video2.mp4';
 
 const ProjDate = (props)=>{
   const indice = props.indic -1;
@@ -38,6 +43,22 @@ const ProjDate = (props)=>{
       video: [proj3Vid1, proj3Vid2, proj3Vid3],
       but: 'Abrir página',
       link: 'https://leonelsk8.github.io/GamePlus/login.html'
+    },
+    {
+      id:4,
+      title: 'NOVA TECH',
+      description: 'Fué mi cuarto proyecto hecho en equipo, sobre un ecommerce de productos electronicos, trabajado con: React + Vite, Bootstrap, MongoDB, Mongoose, ExpressJs, NodeJs, entre otras. Aplicando completamente el stack MERN. Yo me encargué de: Home (Store completo con landing page), Modo nocturno, Cambio de idioma, Panel de control Admin con CRUD de productos, Backend con rutas necesarias para productos (protegidas con JWT dependiendo el usuario y validadas con express validator), carrito de compras con total a pagar, animaciones css, etc.',
+      video: [proj4Vid1, proj4Vid2, proj4Vid3],
+      but: 'Abrir página',
+      link: 'https://nova-tech-technology.netlify.app/home'
+    },
+    {
+      id:5,
+      title: 'FARMACIA LA PERLA',
+      description: 'Fué un proyecto hecho en equipo trabajando en Visibiliy Studio, sobre un ecommerce de una Farmacia, trabajado con: React + NextJs, Tailwindcss, MongoDB, Mongoose, ExpressJs, NodeJs, entre otras. Yo me encargué del Backend, parte del Frontend, validaciones como la verificación de usuario por gmail, API de mercado pago checkout integrado, entre otras cosas.',
+      video: [proj5Vid1, proj5Vid2],
+      but: 'Abrir página',
+      link: 'https://farmacialaperla.com/'
     }
   ]
 
@@ -65,6 +86,22 @@ const ProjDate = (props)=>{
       video: [proj3Vid1, proj3Vid2, proj3Vid3],
       but: 'Open page',
       link: 'https://leonelsk8.github.io/GamePlus/login.html'
+    },
+    {
+      id:4,
+      title: 'NOVA TECH',
+      description: 'It was my fourth team project, about an ecommerce of electronic products, worked with: React + Vite, Bootstrap, MongoDB, Mongoose, ExpressJs, NodeJs, among others. Fully applying the MERN stack. I was in charge of: Home (Full store with landing page), Night mode, Language change, Admin Control Panel with CRUD of products, Backend with necessary routes for products (protected with JWT depending on the user and validated with express validator), shopping cart with total to pay, css animations, etc.',
+      video: [proj4Vid1, proj4Vid2, proj4Vid3],
+      but: 'Open page',
+      link: 'https://nova-tech-technology.netlify.app/home'
+    },
+    {
+      id:5,
+      title: 'FARMACIA LA PERLA',
+      description: 'It was a team project working in Visibiliy Studio, on an ecommerce of a Pharmacy, worked with: React + NextJs, Tailwindcss, MongoDB, Mongoose, ExpressJs, NodeJs, among others. I took care of the Backend, part of the Frontend, validations such as user verification by gmail, integrated checkout payment market API, among other things.',
+      video: [proj5Vid1, proj5Vid2],
+      but: 'Open page',
+      link: 'https://farmacialaperla.com/'
     }
   ]
 

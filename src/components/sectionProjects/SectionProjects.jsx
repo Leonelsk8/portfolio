@@ -4,6 +4,8 @@ import './sectionproject-module.css';
 import project1 from '../../assets/project1.png';
 import project2 from '../../assets/project2.png';
 import project3 from '../../assets/project3.png';
+import project4 from '../../assets/project4.png';
+import project5 from '../../assets/project5.png';
 import ProjDate from './ProjDate';
 
 const SectionProjects = (props) => {
@@ -23,6 +25,12 @@ const SectionProjects = (props) => {
         </Col>
         <Col sm={12} md={6} lg={3}>
           <a type='button' onClick={()=>setModal(3)}><Image src={project3} className='proj' width='100%'></Image></a>
+        </Col>
+        <Col sm={12} md={6} lg={3}>
+          <a type='button' onClick={()=>setModal(4)}><Image src={project4} className='proj' width='100%'></Image></a>
+        </Col>
+        <Col sm={12} md={6} lg={3}>
+          <a type='button' onClick={()=>setModal(5)}><Image src={project5} className='proj' width='100%'></Image></a>
         </Col>
       </Row>
     )
