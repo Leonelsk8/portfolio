@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.17db0480.css",
-    "main.js": "/portfolio/static/js/main.b1dffec6.js",
+    "main.js": "/portfolio/static/js/main.8e1c8b7b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/project1Video1.mp4": "/portfolio/static/media/project1Video1.3e3f27312daefffe83c0.mp4",
     "static/media/project3Video2.mp4": "/portfolio/static/media/project3Video2.0b29616d801bb411a8a2.mp4",
@@ -21,9 +21,9 @@
     "static/media/project3.png": "/portfolio/static/media/project3.5c0e11c641a0b12cc171.png",
     "static/media/project5.png": "/portfolio/static/media/project5.e04a174d9fdc0643e916.png",
     "static/media/project2Video1.mp4": "/portfolio/static/media/project2Video1.4c399c3c8786387fcc2b.mp4",
+    "static/media/Gomez Leonel Agustin, Fullstack Dev.pdf": "/portfolio/static/media/Gomez Leonel Agustin, Fullstack Dev.b8562f656204be8cc4c9.pdf",
     "static/media/giphy.gif": "/portfolio/static/media/giphy.8fb99d9a03127d880d14.gif",
     "static/media/Chas.svg": "/portfolio/static/media/Chas.741d36769340a4e84051a7460ddda973.svg",
-    "static/media/CURRICULUM.pdf": "/portfolio/static/media/CURRICULUM.a32366de786e5e1e2ff1.pdf",
     "static/media/project1Video2.mp4": "/portfolio/static/media/project1Video2.4a8306f7d6d77e869773.mp4",
     "static/media/Expressjs.svg": "/portfolio/static/media/Expressjs.dd8b6d194df018943b746f66f24e6369.svg",
     "static/media/wallpaperBaner.jpg": "/portfolio/static/media/wallpaperBaner.a84f28feba593820f870.jpg",
@@ -51,11 +51,11 @@
     "static/media/facebook.svg": "/portfolio/static/media/facebook.1bc0288746d9d8eec1ee87d3497c5b1f.svg",
     "static/media/Vue.svg": "/portfolio/static/media/Vue.95c6713b656cdd809fab07007bdb8e2a.svg",
     "main.17db0480.css.map": "/portfolio/static/css/main.17db0480.css.map",
-    "main.b1dffec6.js.map": "/portfolio/static/js/main.b1dffec6.js.map",
+    "main.8e1c8b7b.js.map": "/portfolio/static/js/main.8e1c8b7b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17db0480.css",
-    "static/js/main.b1dffec6.js"
+    "static/js/main.8e1c8b7b.js"
   ]
 }
