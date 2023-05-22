@@ -2,8 +2,8 @@ import React from 'react'
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import gif from './giphy.gif';
 import './bio-module.css';
-import CV from './CURRICULUM.pdf';
 import AOS from 'aos';
+import cv from '../../assets/Gomez Leonel Agustin, Fullstack Dev.pdf';
 
 const SectionBio = (props) => {
   const bgMode = props.bgMode;
@@ -24,7 +24,7 @@ const SectionBio = (props) => {
                 <div className='px-2 px-md-0'> 
                   <h1>{idiom.Bio.welcome}</h1>
                   <h5>{idiom.Bio.infoone}<br></br>{idiom.Bio.infotwo}</h5>
-                  <a className='btn btn-danger' href={CV} target={'_blank'}>My CV pdf</a>
+                  <a className='btn btn-danger' href={cv} target={'_blank'}>My CV pdf</a>
                 </div>
                 <div className='mt-4 d-flex flex-wrap justify-content-between'>
                   <div className='pe-3 pe-md-0'>
