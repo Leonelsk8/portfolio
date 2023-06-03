@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.17db0480.css",
-    "main.js": "/portfolio/static/js/main.1e8ca60e.js",
+    "main.css": "/portfolio/static/css/main.2d3e9382.css",
+    "main.js": "/portfolio/static/js/main.e9b3c198.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/project1Video1.mp4": "/portfolio/static/media/project1Video1.3e3f27312daefffe83c0.mp4",
     "static/media/project3Video2.mp4": "/portfolio/static/media/project3Video2.0b29616d801bb411a8a2.mp4",
@@ -22,7 +22,7 @@
     "static/media/project3.png": "/portfolio/static/media/project3.5c0e11c641a0b12cc171.png",
     "static/media/project5.png": "/portfolio/static/media/project5.e04a174d9fdc0643e916.png",
     "static/media/project2Video1.mp4": "/portfolio/static/media/project2Video1.4c399c3c8786387fcc2b.mp4",
-    "static/media/Gomez Leonel Agustin, Fullstack Dev.pdf": "/portfolio/static/media/Gomez Leonel Agustin, Fullstack Dev.b8562f656204be8cc4c9.pdf",
+    "static/media/Gomez Leonel Agustin, Fullstack Dev.pdf": "/portfolio/static/media/Gomez Leonel Agustin, Fullstack Dev.0cae90e96ca5588aa5a1.pdf",
     "static/media/logic3video.mp4": "/portfolio/static/media/logic3video.7b99561e7026654c68d1.mp4",
     "static/media/logic2.png": "/portfolio/static/media/logic2.24a12e8b05af8929f70e.png",
     "static/media/logic3.png": "/portfolio/static/media/logic3.76b05dfd7a8ecc3ed8c3.png",
@@ -54,12 +54,12 @@
     "static/media/Npm.svg": "/portfolio/static/media/Npm.5ea2bb6fa3bed2ec7cce36e2679f188f.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.1bc0288746d9d8eec1ee87d3497c5b1f.svg",
     "static/media/Vue.svg": "/portfolio/static/media/Vue.95c6713b656cdd809fab07007bdb8e2a.svg",
-    "main.17db0480.css.map": "/portfolio/static/css/main.17db0480.css.map",
-    "main.1e8ca60e.js.map": "/portfolio/static/js/main.1e8ca60e.js.map",
+    "main.2d3e9382.css.map": "/portfolio/static/css/main.2d3e9382.css.map",
+    "main.e9b3c198.js.map": "/portfolio/static/js/main.e9b3c198.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17db0480.css",
-    "static/js/main.1e8ca60e.js"
+    "static/css/main.2d3e9382.css",
+    "static/js/main.e9b3c198.js"
   ]
 }
