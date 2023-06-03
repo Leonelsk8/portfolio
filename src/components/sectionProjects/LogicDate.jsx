@@ -1,4 +1,5 @@
-import React,{ useEffect, useRef } from 'react'
+import React,{ useEffect, useRef } from 'react';
+import logic2video from '../../assets/logic2video.mp4';
 import logic3video from '../../assets/logic3video.mp4';
 
 const LogicDate = (props) => {
@@ -22,12 +23,12 @@ const LogicDate = (props) => {
     {
       id:2,
       title: 'Tiro de dados',
-      description: 'Este simulador de tirar dados esta hecho con Javascript',
-      video: [],
-      link: '',
+      description: 'Este simulador de tirar dados esta hecho con puro Html, Css y Javascript. Todas las animaciones principalmente los dados están hechos a mano con css.',
+      video: [logic2video],
+      link: 'https://leonelsk8.github.io/tiro-de-dados/',
       but: 'Abrir página',
       but2: 'Abrir repositorio',
-      link2: ''
+      link2: 'https://github.com/Leonelsk8/tiro-de-dados'
     },
     {
       id:3,
@@ -55,12 +56,12 @@ const LogicDate = (props) => {
     {
       id:2,
       title: 'Dice roll',
-      description: 'This dice roll simulator is made with Javascript',
+      description: 'This dice throwing simulator is made with pure Html, Css and Javascript. All the animations mainly the dice are made by hand with css.',
       video: [],
-      link: '',
+      link: 'https://leonelsk8.github.io/tiro-de-dados/',
       but: 'Open page',
       but2: 'Open repository',
-      link2: ''
+      link2: 'https://github.com/Leonelsk8/tiro-de-dados'
     },
     {
       id:3,

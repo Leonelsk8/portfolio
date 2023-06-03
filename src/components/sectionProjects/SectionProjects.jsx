@@ -6,6 +6,7 @@ import project2 from '../../assets/project2.png';
 import project3 from '../../assets/project3.png';
 import project4 from '../../assets/project4.png';
 import project5 from '../../assets/project5.png';
+import logic2 from '../../assets/logic2.png'
 import logic3 from '../../assets/logic3.png';
 import ProjDate from './ProjDate';
 import LogicDate from './LogicDate';
@@ -46,6 +47,9 @@ const SectionProjects = (props) => {
       <Row className='justify-content-center'>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
           <a type='button' onClick={()=>setModalLogic(3)}><Image src={logic3} className='proj' width='100%'></Image></a>
+        </Col>
+        <Col sm={12} md={6} lg={3} data-aos="zoom-in">
+          <a type='button' onClick={()=>setModalLogic(2)}><Image src={logic2} className='proj' width='100%'></Image></a>
         </Col>
       </Row>
     )

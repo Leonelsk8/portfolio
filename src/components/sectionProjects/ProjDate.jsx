@@ -23,7 +23,7 @@ const ProjDate = (props)=>{
     {
       id:1,
       title: 'HEADSHOT',
-      description: 'Fué mi primer proyecto, solo con html,css y algunas funciones de bootstrap. Fué hecho en equipo, yo me encargué de: Página principal, Carrousel, Error 404, Galería de imagenes y las páginas de cada post.',
+      description: 'Fué mi primer proyecto, solo con html,css y algunas funciones de bootstrap. Fué hecho en equipo, yo me encargué de: Página principal, Carrousel, Error 404, Galería de imagenes, Contacto y las páginas de cada post.',
       video: [proj1Vid1, proj1Vid2],
       link: 'https://leonelsk8.github.io/Headshot/',
       but: 'Abrir página'
@@ -39,15 +39,15 @@ const ProjDate = (props)=>{
     {
       id:3,
       title: 'GAME PLUS',
-      description: 'Fué mi tercer proyecto. Hecho con html css y js, usando local storage como base de datos, la página cuenta con su registro e inicio de sesión, también cuenta con modo oscuro y claro, tiene una cuenta de administrador para realizar CRUD con los post. para entrar como admin la cuenta es: admin123@gmail.com y el password: admin159',
+      description: 'Fué mi tercer proyecto trabajado en equipo. Hecho con html css y js, usando local storage como base de datos, la página cuenta con su registro e inicio de sesión, también cuenta con modo oscuro y claro, tiene una cuenta de administrador para realizar CRUD con los post. para entrar como admin la cuenta es: admin123@gmail.com y el password: admin159. Yo me encargué de: pagina principal con carruseles, crud de posts, modo nocturno, pagina de informacion, entre otras cosas.',
       video: [proj3Vid1, proj3Vid2, proj3Vid3],
       but: 'Abrir página',
-      link: 'https://leonelsk8.github.io/GamePlus/login.html'
+      link: 'https://game-plus.netlify.app/login.html'
     },
     {
       id:4,
       title: 'NOVA TECH',
-      description: 'Fué mi cuarto proyecto hecho en equipo, sobre un ecommerce de productos electronicos, trabajado con: React + Vite, Bootstrap, MongoDB, Mongoose, ExpressJs, NodeJs, entre otras. Aplicando completamente el stack MERN. Yo me encargué de: Home (Store completo con landing page), Modo nocturno, Cambio de idioma, Panel de control Admin con CRUD de productos, Backend con rutas necesarias para productos (protegidas con JWT dependiendo el usuario y validadas con express validator), carrito de compras con total a pagar, animaciones css, etc.',
+      description: 'Fué mi cuarto proyecto hecho en equipo, sobre un ecommerce de productos electronicos, trabajado con: React + Vite, Bootstrap, MongoDB, Mongoose, ExpressJs, NodeJs, entre otras. Aplicando completamente el stack MERN. Yo me encargué de: Home (Store completo con landing page), Apliqué idea de modo nocturno y cambio de idioma, Panel de control Admin con CRUD de productos, Backend con rutas necesarias para productos (protegidas con JWT dependiendo el usuario y validadas con express validator), carrito de compras con total a pagar, animaciones css, etre otras.',
       video: [proj4Vid1, proj4Vid2, proj4Vid3],
       but: 'Abrir página',
       link: 'https://nova-tech-technology.netlify.app/home'
@@ -66,7 +66,7 @@ const ProjDate = (props)=>{
     {
       id:1,
       title: 'HEADSHOT',
-      description: 'It was my first project, just with html, css and some bootstrap functions. It was done as a team, I was in charge of: Main page, Carousel, Error 404, Image gallery and the pages of each post.',
+      description: 'It was my first project, just with html, css and some bootstrap functions. It was done as a team, I was in charge of: Main page, Carousel, Error 404, Image gallery, Contact and the pages of each post.',
       link: 'https://leonelsk8.github.io/Headshot/',
       video: [proj1Vid1, proj1Vid2],
       but: 'Open page'
@@ -82,15 +82,15 @@ const ProjDate = (props)=>{
     {
       id:3,
       title: 'GAME PLUS',
-      description: 'It was my third project. Made with html css and js, using local storage as a database, the page has its registration and login, it also has a dark and light mode, it has an administrator account to CRUD the posts. to enter as admin the account is: admin123@gmail.com and the password: admin159',
+      description: 'It was my third project worked as a team. Made with html css and js, using local storage as a database, the page has its registration and login, it also has a dark and light mode, it has an administrator account to CRUD the posts. to enter as admin the account is: admin123@gmail.com and the password: admin159. I was in charge of: main page with carousels, crud of posts, night mode, information page, among other things.',
       video: [proj3Vid1, proj3Vid2, proj3Vid3],
       but: 'Open page',
-      link: 'https://leonelsk8.github.io/GamePlus/login.html'
+      link: 'https://game-plus.netlify.app/login.html'
     },
     {
       id:4,
       title: 'NOVA TECH',
-      description: 'It was my fourth team project, about an ecommerce of electronic products, worked with: React + Vite, Bootstrap, MongoDB, Mongoose, ExpressJs, NodeJs, among others. Fully applying the MERN stack. I was in charge of: Home (Full store with landing page), Night mode, Language change, Admin Control Panel with CRUD of products, Backend with necessary routes for products (protected with JWT depending on the user and validated with express validator), shopping cart with total to pay, css animations, etc.',
+      description: 'It was my fourth team project, about an ecommerce of electronic products, worked with: React + Vite, Bootstrap, MongoDB, Mongoose, ExpressJs, NodeJs, among others. Fully applying the MERN stack. I was in charge of: Home (full store with landing page), I applied the idea of night mode and language change, Admin Control Panel with CRUD of products, Backend with necessary routes for products (protected with JWT depending on the user and validated with express validator), shopping cart with total to pay, css animations, among others.',
       video: [proj4Vid1, proj4Vid2, proj4Vid3],
       but: 'Open page',
       link: 'https://nova-tech-technology.netlify.app/home'
