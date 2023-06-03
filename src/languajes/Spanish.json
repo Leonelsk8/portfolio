@@ -1,7 +1,7 @@
 {
   "Baner":{
     "SaludBaner": "Hola! soy Leonel 👋",
-    "DescBaner": "Web developer. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.",
+    "DescBaner": "Desarrollador Web. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.",
     "table1": "Proyectos",
     "table2": "Habilidades",
     "table3": "Nivel",
@@ -13,8 +13,8 @@
   },
   "Bio":{
     "welcome": "Bienvenido a mi portafolio 😄",
-    "infoone": "Me llamo Leonel Gomez, soy un desarrollador web Full-Stack con +1 años de experiencia. Certificado en Rolling Code School y ex estudiante en Ingeniaría de sistemas.",
-    "infotwo": "Actualmente Junior, buscando nuevos desafios para obtener más experiencia, especializado en el stack MERN y aplicando otros stack como PERN, estoy dispuesto adaptarme a cualquier cambio y mantenerme actualizado con cada novedad, quiero dar lo mejor de mí siempre.",
+    "infoone": "Me llamo Leonel Gomez, soy un desarrollador web Full-Stack con 1 año de experiencia realizando proyectos. Certificado en Rolling Code School y ex estudiante en Ingeniaría de sistemas.",
+    "infotwo": "Actualmente Junior, buscando nuevos desafios y más experiencia, especializado en el stack MERN y aplicando otros stack como PERN, estoy dispuesto adaptarme a los cambios y mantenerme actualizado con cada novedad, quiero dar lo mejor de mí siempre.",
     "listTitle1": "Idíomas:",
     "listTitle2": "Metodologías ágiles:",
     "listTitle3": "Metodologías de desarrollo:",
@@ -42,6 +42,8 @@
   },
   "Nav":{
     "home": "Inicio",
+    "project": "Proyectos",
+    "skill": "Habilidades",
     "contact": "Contáctame"
   },
   "form":{

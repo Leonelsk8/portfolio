@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import axios from 'axios';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+import { Link } from 'react-scroll';
 
 function NavBar(props){
   const bgNav = props.bgNav;
@@ -47,6 +48,8 @@ function NavBar(props){
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link className='active' href="#home">{lang.Nav.home}</Nav.Link>
+            <Link to="seccion3" smooth={true} className="me-lg-2 nav-link navLink">{lang.Nav.project}</Link>
+            <Link to="seccion2" smooth={true} className="me-lg-2 nav-link navLink">{lang.Nav.skill}</Link>
             <Nav.Link href="#link" className="me-lg-2" data-bs-toggle="modal" data-bs-target="#exampleModalNav">{lang.Nav.contact}</Nav.Link>
             <label className="interruptor">
               <input type="checkbox" onChange={()=>{modeChange()}} checked={bgNav === 'dark' ? true : false}/>
