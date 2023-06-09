@@ -14,7 +14,7 @@
   "Bio":{
     "welcome": "welcome to my portfolio 😄",
     "infoone": "My name is Leonel Gomez, I am a Full-Stack web developer with 1 year of experience doing projects. Certificate in Rolling Code School and former student in Systems Engineering.",
-    "infotwo": "Actualmente Junior, buscando nuevos desafios y más experiencia, especializado en el stack MERN y aplicando otros stack como PERN, estoy dispuesto adaptarme a los cambios y mantenerme actualizado con cada novedad, quiero dar lo mejor de mí siempre.",
+    "infotwo": "Currently Junior, looking for new challenges and more experience, specialized in the MERN stack and applying other stacks such as PERN, I am willing to adapt to changes and keep up to date with each new development, always giving my best.",
     "listTitle1": "Languages:",
     "listTitle2": "Agile methodologies:",
     "listTitle3": "Development methodologies:",
@@ -30,7 +30,9 @@
     "subtitle4": "Database"
   },
   "Proj":{
-    "projects": "Projects",
+    "title": "Projects",
+    "webs": "Websites",
+    "app": "Apps",
     "logic": "Logic",
     "dateLan": 1
   },

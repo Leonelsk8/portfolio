@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import foto2 from '../../assets/perfil2.png';
-import wsp from '../../assets/whatsapp.svg';
-import face from '../../assets/facebook.svg';
-import ig from '../../assets/instagram.svg';
+import { FaFacebook, FaInstagram, FaGithub, FaWhatsapp, FaLinkedin,  } from 'react-icons/fa';
+import style from './footer.module.css';
 
 const Footer = (props) => {
   const lang = props.lang;
@@ -21,24 +20,16 @@ const Footer = (props) => {
         <Col sm={12} md={6} lg={4} className='mt-4 mt-lg-0'>
           <h2>Info</h2>
           <p className='mt-4'>{lang.Foot.info}</p>
-          <div>
-            <p className='d-inline'>My Github: </p><a href='https://github.com/Leonelsk8' target='blank'>https://github.com/Leonelsk8</a>
-          </div>
         </Col>
         <Col sm={12} md={6} lg={4} className='mt-4 mt-lg-0'>
           <h2>{lang.Foot.RS}</h2>
-          <div className='d-flex flex-column justify-content-center align-items-center'>
-            <div className='d-flex align-items-center mt-4'>
-              <Image src={wsp} width={'50px'}></Image>
-              <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' className='Foot-Link'><h6 className='ms-2'>Whatsapp</h6></a>
-            </div>
-            <div className='d-flex align-items-center mt-3'>
-              <Image src={face} width={'50px'}></Image>
-              <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' className='Foot-Link'><h6 className='ms-2'>Facebook</h6></a>
-            </div>
-            <div className='d-flex align-items-center mt-3'>
-              <Image src={ig} width={'50px'}></Image>
-              <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' className='Foot-Link'><h6 className='ms-2'>Instagram</h6></a>
+          <div className='d-flex justify-content-center'>
+            <div className='mt-4 d-flex flex-column align-items-start'>
+              <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' className='Foot-Link'><FaWhatsapp  className={style.icons}/> Whatsapp</a>
+              <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' className='Foot-Link mt-3'><FaFacebook  className={style.icons}/> Facebook</a>
+              <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' className='Foot-Link mt-3'><FaInstagram  className={style.icons}/> Instagram</a>
+              <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' className='Foot-Link mt-3'><FaLinkedin  className={style.icons}/> Linkedin</a>
+              <a href='https://github.com/Leonelsk8' target='_blank' className='Foot-Link mt-3'><FaGithub className={style.icons}/> Github</a>
             </div>
           </div>
         </Col>

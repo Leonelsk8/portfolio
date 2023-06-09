@@ -94,10 +94,12 @@ body{
 .Foot-Link{
   text-decoration: none;
   color: #bebebe;
+  transition: 0.2s;
 }
 
 .Foot-Link:hover{
   color: #fff;
+  transform: scale(105%);
 }
 
 .navLink{

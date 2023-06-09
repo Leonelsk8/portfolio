@@ -1,0 +1,89 @@
+.but_white{
+  color: #bcbcbc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.but_dark{
+  color: #797979;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active_white{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active_dark{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.but_white:hover, .active_white:hover{
+  color: #fff;
+}
+
+.but_dark:hover, .active_dark:hover{
+  color: #000000;
+}
+
+.proj{
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.proj:hover{
+  transform: scale(110%);
+}
+
+video{
+  width: 50%;
+}
+
+.backModal{
+  background-size: cover;
+  background-position: bottom;
+}
+
+.buttonModal, .buttdisabled{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgba(32, 32, 32, 0.205);
+  border-radius: 10px;
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.1em;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.buttonModal:hover{
+  color: #fff;
+  border: 1px solid #ffffffa4;
+}
+
+.iconsModal{
+  font-size: 1.5em;
+}
+
+@media (768px <= width < 992px){
+  video{
+    width: 100%;
+  }
+}
+
+@media (width < 768px){
+  video{
+    width: 100%;
+  }
+  .divVideos{
+    max-height: 10%;
+    overflow-y: scroll;
+  }
+}
