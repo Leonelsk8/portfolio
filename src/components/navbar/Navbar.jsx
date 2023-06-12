@@ -1,13 +1,12 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
+import MyContext from '../../MyContext';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { Link } from 'react-scroll';
 
-function NavBar(props){
-  const bgNav = props.bgNav;
-  const modeChange = props.buttMode;
-  const lang = props.lang;
+function NavBar(){
+  const {bgNav, themeChange, lang} = useContext(MyContext);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -41,7 +40,7 @@ function NavBar(props){
    
   return(
     <>
-    <Navbar bg={bgNav} expand="lg" variant={bgNav} className={`border-bottom border-secondary py-2`}>
+    <Navbar bg={bgNav} expand="lg" variant={bgNav} className={`border-bottom border-secondary py-2`} id="sectHead">
       <Container fluid className='px-2 px-md-4'>
         <Navbar.Brand href="#home">Portfolio - Leonel</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -52,7 +51,7 @@ function NavBar(props){
             <Link to="seccion2" smooth={true} className="me-lg-2 nav-link navLink">{lang.Nav.skill}</Link>
             <Nav.Link href="#link" className="me-lg-2" data-bs-toggle="modal" data-bs-target="#exampleModalNav">{lang.Nav.contact}</Nav.Link>
             <label className="interruptor">
-              <input type="checkbox" onChange={()=>{modeChange()}} checked={bgNav === 'dark' ? true : false}/>
+              <input type="checkbox" onChange={()=>{themeChange()}} checked={bgNav === 'dark' ? true : false}/>
               <span><ion-icon name="moon-outline" className="moon"></ion-icon></span>
             </label>
           </Nav>

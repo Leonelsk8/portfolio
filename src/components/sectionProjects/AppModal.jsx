@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const AppModal = (props) => {
   const indice = props.indic -1;
-  const languaje = props.idiom;
+  const languaje = props.lang;
   const buttonRef = useRef(null);
   const {closeMod, style} = props;
 

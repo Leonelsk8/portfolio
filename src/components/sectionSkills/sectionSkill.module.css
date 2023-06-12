@@ -1,0 +1,103 @@
+.divSkill, .imgSkill img{
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.imgSkill{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imageS{
+  transform: rotateY(360deg);
+  filter: blur(5px) brightness(0.3);
+}
+
+.pafec{
+  position: absolute;
+  z-index: 0;
+  padding: 10px 5px;
+  margin-top: 15px;
+}
+
+.pafec p{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: typing 1s linear, blink-caret 0.70s step-end infinite;
+  font-weight: bold;
+  color: #fff;
+}
+
+.typing{
+  overflow: hidden;
+  border-right: .1em solid transparent;
+  white-space: nowrap;
+  animation: typing 1.5s linear, parpaded 2.5s step-end;
+}
+
+.colText{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.divTitle{
+  width: max-content;
+}
+
+.opacityText{
+  opacity: 0%;
+}
+
+@keyframes typing{
+  0%{width:0;}
+  100%{width: 100%;}
+}
+
+@keyframes parpaded {
+  0%{
+    border-color: transparent;
+  }
+  10%{
+    border-color: rgb(0, 117, 119);
+  }
+  20%{
+    border-color: transparent;
+  }
+  30%{
+    border-color: rgb(0, 117, 119);
+  }
+  40%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: rgb(0, 117, 119);
+  }
+  60%{
+    border-color: transparent;
+  }
+  70%{
+    border-color: rgb(0, 117, 119);
+  }
+  80%{
+    border-color: transparent;
+  }
+  90%{
+    border-color: rgb(0, 117, 119);
+  }
+  100%{
+    border-color: transparent;
+  }
+}
+
+@keyframes blink-caret{
+  from, to{border-color: transparent;}
+  50%{border-color: rgb(0, 117, 119);}
+}

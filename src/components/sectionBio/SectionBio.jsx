@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useContext} from 'react';
+import MyContext from '../../MyContext';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import gif from './giphy.gif';
 import style from './bio.module.css';
@@ -6,14 +7,12 @@ import AOS from 'aos';
 import cv from '../../assets/Gomez Leonel Agustin, Fullstack Dev.pdf';
 import { FaFilePdf} from 'react-icons/fa';
 
-const SectionBio = (props) => {
-  const bgMode = props.bgMode;
-  const textMode = props.modeText;
-  const idiom = props.lang;
+const SectionBio = () => {
+  const {bgMode, textMode, lang} = useContext(MyContext);
   AOS.init()
 
   return (
-    <section className={`pt-5 pb-3`}>
+    <section className={`pb-3`} style={{ zIndex: 1}}>
       <Container fluid>
         <Row className='justify-content-center' id="seccion1">
           <Col sm={12} md={12} lg={12} xl={12} xll={12} className={`bgCard${bgMode} text-${textMode} my-5 py-4 px-md-5`}>
@@ -22,22 +21,22 @@ const SectionBio = (props) => {
                 <Image src={gif} roundedCircle={true} height={'400px'} width={'400px'} data-aos="zoom-in"></Image>
               </Col>
               <Col sm={12} md={12} lg={7} xl={8}>
-                <div className='px-2 px-md-0'> 
-                  <h1>{idiom.Bio.welcome}</h1>
-                  <h5>{idiom.Bio.infoone}<br></br>{idiom.Bio.infotwo}</h5>
+                <div className={`px-3 py-2 px-lg-2 ${style.divInfo}`}> 
+                  <h1>{lang.Bio.welcome}</h1>
+                  <h5>{lang.Bio.infoone}<br></br>{lang.Bio.infotwo}</h5>
                   <a type='button' className={style.buttonPDF} href={cv} target={'_blank'}><FaFilePdf style={{fontSize: '1.4em'}}/> CV</a>
                 </div>
-                <div className='mt-4 d-flex flex-wrap justify-content-between'>
+                <div className={`mt-4 d-flex flex-wrap justify-content-between ${style.divProps}`}>
                   <div className='pe-3 pe-md-0'>
-                    <h5>{idiom.Bio.listTitle1}</h5>
+                    <h5>{lang.Bio.listTitle1}</h5>
                     <ul className='ps-3'>
-                      <li>{idiom.Bio.liIdiom1}</li>
-                      <li>{idiom.Bio.liIdiom2}</li>
-                      <li>{idiom.Bio.liIdiom3}</li>
+                      <li>{lang.Bio.liIdiom1}</li>
+                      <li>{lang.Bio.liIdiom2}</li>
+                      <li>{lang.Bio.liIdiom3}</li>
                     </ul>
                   </div>
                   <div className='pe-3 pe-md-0'>
-                    <h5>{idiom.Bio.listTitle2}</h5>
+                    <h5>{lang.Bio.listTitle2}</h5>
                     <ul className='ps-3'>
                       <li>Scrum</li>
                       <li>Kanban</li>
@@ -46,7 +45,7 @@ const SectionBio = (props) => {
                     </ul>
                   </div>
                   <div>
-                  <h5>{idiom.Bio.listTitle3}</h5>
+                  <h5>{lang.Bio.listTitle3}</h5>
                     <ul className='ps-3'>
                       <li>BEM</li>
                       <li>SMACSS</li>

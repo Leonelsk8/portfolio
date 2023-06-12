@@ -20,6 +20,11 @@
   cursor: pointer;
 }
 
+.difuminated{
+  filter: brightness(50%);
+  transition: 1.5s;
+}
+
 .cardGirContenido{
   position: relative;
   width: 100%;
@@ -65,7 +70,6 @@
   color: #fff;
   padding: 2px 4px;
 }
-
 
 .selectLan option {
   background-color: #222;

@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const ProjModal = (props)=>{
   const indice = props.indic -1;
-  const languaje = props.idiom;
+  const languaje = props.lang;
   const buttonRef = useRef(null);
   const {closeMod, style} = props;
 
@@ -19,7 +19,7 @@ const ProjModal = (props)=>{
   return(
     <>
     <button ref={buttonRef} type="button" className="d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"></button>
-    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal fade" id="exampleModal" tabIndex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
         <div className={`modal-content text-white ${style.backModal}`} style={{background:`linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 25%, rgba(231,231,231,0) 45%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,1) 100%)`}}>
           <div className="modal-header border-bottom-0">

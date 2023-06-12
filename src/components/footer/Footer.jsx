@@ -1,11 +1,12 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react';
+import MyContext from '../../MyContext';
 import {Container, Row, Col, Image} from 'react-bootstrap';
 import foto2 from '../../assets/perfil2.png';
 import { FaFacebook, FaInstagram, FaGithub, FaWhatsapp, FaLinkedin,  } from 'react-icons/fa';
 import style from './footer.module.css';
 
-const Footer = (props) => {
-  const lang = props.lang;
+const Footer = () => {
+  const {lang} = useContext(MyContext);
   const [hovChange, setHover] = useState(null)
 
   return (
@@ -28,7 +29,9 @@ const Footer = (props) => {
               <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' className='Foot-Link'><FaWhatsapp  className={style.icons}/> Whatsapp</a>
               <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' className='Foot-Link mt-3'><FaFacebook  className={style.icons}/> Facebook</a>
               <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' className='Foot-Link mt-3'><FaInstagram  className={style.icons}/> Instagram</a>
-              <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' className='Foot-Link mt-3'><FaLinkedin  className={style.icons}/> Linkedin</a>
+            </div>
+            <div className='mt-4 ms-3 d-flex flex-column align-items-start'>
+              <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' className='Foot-Link'><FaLinkedin  className={style.icons}/> Linkedin</a>
               <a href='https://github.com/Leonelsk8' target='_blank' className='Foot-Link mt-3'><FaGithub className={style.icons}/> Github</a>
             </div>
           </div>

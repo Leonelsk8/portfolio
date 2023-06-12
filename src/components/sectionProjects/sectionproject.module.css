@@ -72,6 +72,67 @@ video{
   font-size: 1.5em;
 }
 
+.divTitle{
+  width: max-content;
+}
+
+.opacityText{
+  opacity: 0%;
+}
+
+.typing{
+  overflow: hidden;
+  border-right: .1em solid transparent;
+  white-space: nowrap;
+  animation: typing 1.5s linear, parpaded 2.5s step-end;
+}
+
+@keyframes typing{
+  0%{width:0;}
+  100%{width: 100%;}
+}
+
+@keyframes blink-caret{
+  from, to{border-color: transparent;}
+  50%{border-color: rgb(0, 117, 119);}
+}
+
+@keyframes parpaded {
+  0%{
+    border-color: transparent;
+  }
+  10%{
+    border-color: rgb(0, 117, 119);
+  }
+  20%{
+    border-color: transparent;
+  }
+  30%{
+    border-color: rgb(0, 117, 119);
+  }
+  40%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: rgb(0, 117, 119);
+  }
+  60%{
+    border-color: transparent;
+  }
+  70%{
+    border-color: rgb(0, 117, 119);
+  }
+  80%{
+    border-color: transparent;
+  }
+  90%{
+    border-color: rgb(0, 117, 119);
+  }
+  100%{
+    border-color: transparent;
+  }
+}
+
 @media (768px <= width < 992px){
   video{
     width: 100%;

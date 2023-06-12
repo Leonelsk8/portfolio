@@ -12,3 +12,30 @@
 .buttonPDF:hover{
   background-color: rgba(192, 49, 24, 0.589);;
 }
+
+.divInfo h1{
+  font-size: 2.3em;
+}
+
+.divInfo h5{
+  font-size: 1.2em;
+}
+
+
+@media (max-width: 576px){
+  .divInfo h1{
+    font-size: 1.5em;
+  }
+  
+  .divInfo h5{
+    font-size: 0.9em;
+  }
+
+  .divProps h5{
+    font-size: 1.1em;
+  }
+
+  .divProps li{
+    font-size: 0.9em;
+  }
+}
