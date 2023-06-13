@@ -40,14 +40,13 @@ function App() {
       <NavBar/>
       {arrow ? 
         <section className='arrowUp'>
-          <div>
-            <Link to="sectHead" smooth={true} duration={500}>
+          <Link to="sectHead" smooth={true} duration={500}>
+            <div className={`arrow${bgMode}`}>
               <i className="bi bi-arrow-up-short"></i>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </section> : ''
       }
-      
       <Baner/>
       <section className={`bg${bgMode} secPrin ${relative? 'position-relative' : ''}`} style={{ zIndex: 0}}>
         <SectionBio/>

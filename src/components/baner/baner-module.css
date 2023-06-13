@@ -1,9 +1,19 @@
 .secBaner{
   position: relative;
 }
-.bgBaner{
+
+.bgBanerDark{
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,0.6) 50%, rgba(255,255,255,0.1) 100%), url('wallpaperBaner.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.bgBanerLight{
+  background: rgb(141, 123, 104);
+  background: linear-gradient(0deg, rgba(141, 123, 104,0.7) 15%, rgba(0, 0, 0, 0.1) 100%), url('wallpaperBaner.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -44,13 +54,6 @@
   backface-visibility: hidden;
 }
 
-.bgCardGirDark{
-  background-color: #313131;
-}
-
-.bgCardGirLight{
-  background-color: rgb(24, 224, 238);
-}
 .cardGir-trasero{
   transform: rotateY(180deg);
 }

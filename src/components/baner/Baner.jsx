@@ -2,10 +2,12 @@ import React, {useState, useContext, useEffect} from 'react';
 import MyContext from '../../MyContext';
 import { Link } from 'react-scroll';
 import {Container, Row, Col, Image} from 'react-bootstrap';
-import Foto from '../../assets/perfil.png';
+import Fotodark from '../../assets/perfilDark.png';
+import Fotolight from '../../assets/perfilLight.png';
 import './baner-module.css';
 import es from '../../assets/es.webp';
 import en from '../../assets/en.webp';
+
 
 function Baner(){
   const {bgMode, textMode, lang, langChange, setArrow} = useContext(MyContext);
@@ -43,11 +45,11 @@ function Baner(){
     <>
     <section className={`sticky-top pb-5 bg${bgMode} ${difuminated ? 'difuminated' : ''}`} style={{ zIndex: zIndexvalue}}>
       <section className={`secBaner bg${bgMode}`}>
-        <section className='bgBaner'>
+        <section className={`bgBaner${bgMode}`}>
           <Row className='justify-content-md-between py-3 py-md-0 my-md-4 vw-100 flex-column-reverse flex-md-row'>
             <Col sm={12} md={8} lg={7} className='text-white py-md-5 ps-md-3 ps-lg-5 animate__animated animate__fadeInLeft mt-3 mt-md-0'><h2 className='ps-md-5 text-center text-md-start'>{lang.Baner.SaludBaner}</h2><h3 className='ps-5 d-none d-md-block'>{lang.Baner.DescBaner}</h3></Col>
-            <Col sm={12} md={4} lg={5} className='d-flex pb-md-5 pt-md-1 justify-content-center animate__animated animate__zoomIn'>
-              <Image src={Foto} width='190px'></Image>
+            <Col sm={12} md={4} lg={5} className='d-flex pb-md-5 pt-md-1 align-items-end justify-content-center animate__animated animate__zoomIn'>
+              <Image src={bgMode=== 'Dark' ? Fotodark : Fotolight} width='190px'></Image>
             </Col>
           </Row>
         </section>
@@ -61,7 +63,7 @@ function Baner(){
         <Container fluid className='px-5 containerBaner d-none d-md-block'>
           <Row className='justify-content-around'>
             <Col md={4} lg={3} className='cardGir'>
-              <div className={`cardGirContenido text-center text-${textMode}`}>
+              <div className={`cardGirContenido text-center text-white`}>
                 <div className={`cardGir-frente bgCardGir${bgMode} rounded py-3`}>
                   <h2>{lang.Baner.table1}</h2>
                   <h5>{lang.Baner.done}</h5>
@@ -80,7 +82,7 @@ function Baner(){
               </div>
             </Col>
             <Col md={4} lg={3} className='cardGir'>
-              <div className={`cardGirContenido text-center text-${textMode}`}>
+              <div className={`cardGirContenido text-center text-white`}>
                 <div className={`cardGir-frente bgCardGir${bgMode} rounded py-3`}>
                   <h2>{lang.Baner.table2}</h2>
                   <h5>{lang.Baner.skill}</h5>
@@ -99,7 +101,7 @@ function Baner(){
               </div>
             </Col>
             <Col md={4} lg={3} className='cardGir'>
-              <div className={`cardGirContenido text-center text-${textMode}`}>
+              <div className={`cardGirContenido text-center text-white`}>
                 <div className={`cardGir-frente bgCardGir${bgMode} rounded py-3`}>
                   <h2>{lang.Baner.table3}</h2>
                   <h5>Junior</h5>

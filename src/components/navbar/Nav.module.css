@@ -1,0 +1,19 @@
+.buttonModal{
+  background-color: transparent;
+  border: 1px solid rgba(50, 50, 50, 0.558);
+  border-radius: 10px;
+  color: rgb(128, 128, 128);
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 1.1em;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.buttonModal:hover{
+  color: #fff;
+  border: 1px solid #ffffffa4;
+}
+.icons{
+  font-size: 1.8em;
+}

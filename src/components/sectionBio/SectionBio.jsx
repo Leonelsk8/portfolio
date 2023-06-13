@@ -15,7 +15,7 @@ const SectionBio = () => {
     <section className={`pb-3`} style={{ zIndex: 1}}>
       <Container fluid>
         <Row className='justify-content-center' id="seccion1">
-          <Col sm={12} md={12} lg={12} xl={12} xll={12} className={`bgCard${bgMode} text-${textMode} my-5 py-4 px-md-5`}>
+          <Col sm={12} md={12} lg={12} xl={12} xll={12} className={`bgCard${bgMode} text-${textMode} my-5 py-4 px-md-5 position-relative sectOverY sectOverX`} style={{ zIndex: 1}}>
             <Row>
               <Col lg={5} xl={4} className='d-none d-lg-flex align-items-center justify-content-center'>
                 <Image src={gif} roundedCircle={true} height={'400px'} width={'400px'} data-aos="zoom-in"></Image>
@@ -58,8 +58,11 @@ const SectionBio = () => {
                 </div>
               </Col>
             </Row>
+            <div className={`divBioAbsolute divBioAbsolute${bgMode}`}>
+            </div>
           </Col>
         </Row>
+
       </Container>
     </section>
   )

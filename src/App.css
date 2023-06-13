@@ -29,20 +29,24 @@ body{
   overflow-x: hidden !important;
 }
 
-.posSection{
-  position: initial;
-}
-
 .secPrin{
   overflow-x: hidden;
 }
 
 .bgLight{
-  background-color: rgb(255, 246, 231);
+  background-color: #F1DEC9;
 }
 
 .bgDark{
   background-color: rgb(26, 26, 26);
+}
+
+.bgNavDark{
+  background-color: #232323;
+}
+
+.bgNavLight{
+  background-color: #8D7B68;
 }
 
 .bgCardDark{
@@ -50,7 +54,27 @@ body{
 }
 
 .bgCardLight{
-  background-color: rgb(214, 212, 186);
+  background-color: #C8B6A6;
+}
+
+.bgFootDark{
+  background-color: rgb(39, 37, 37);
+}
+
+.bgFootLight{
+  background-color: #A4907C;
+}
+
+.bgCardGirDark{
+  background-color: #313131;
+}
+
+.bgCardGirLight{
+  background-color: #8D7B68;
+}
+
+.titleNav{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .interruptor{
@@ -107,13 +131,17 @@ body{
 
 .navLink{
   cursor: pointer;
+  color: #d8d8d8 !important;
+}
+
+.navLink:hover{
+  color: #fff !important;
 }
 
 .SlimFoot{
   width: 100%;
   height: 60%;
   position: absolute;
-  background-color: rgba(24, 224, 238, 0.995);
   top: 0;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -121,6 +149,15 @@ body{
   border-bottom: rgb(247, 247, 247) 3px solid;
   overflow-y: hidden;
   overflow-x: hidden;
+  color: #fff;
+}
+
+.slimDark{
+  background-color: rgb(0, 117, 119);
+}
+
+.slimLight{
+  background-color: #8D7B68;
 }
 
 .fotoFoot{
@@ -128,7 +165,7 @@ body{
 }
 
 .bgSkill-Light{
-  background-color: rgba(24, 224, 238, 0.594);
+  background-color: #a4907c;
   border-radius: 20px;
   box-shadow: 5px 5px 20px;
 }
@@ -155,7 +192,6 @@ body{
 }
 
 .arrowUp div{
-  background-color: #1e3260;
   border-radius: 100%;
   padding: 0.3em;
   color: #fff;
@@ -169,11 +205,62 @@ body{
   transition: 0.3s;
 }
 
-.arrowUp div:hover{
-  background-color: #384b78;
+.arrowDark{
+  background-color: #1e3260;
 }
 
+.arrowLight{
+  background-color: #7b6b5b;
+}
 
+.arrowUp div:hover{
+  opacity: 75%;
+}
+
+.divPrueba{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.divBioAbsolute{
+  background-color: transparent;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-top: 1200px solid transparent;
+  z-index: -1;
+}
+
+.divBioAbsoluteDark{
+  border-left:  1000px solid rgb(0, 117, 119);
+}
+
+.divBioAbsoluteLight{
+  border-left:  1000px solid #8D7B68;
+}
+
+.sectOverY{
+  overflow-y: hidden;
+}
+
+.sectOverX{
+  overflow-x: hidden;
+}
+
+.divPrueba img{
+  height: 100%;
+}
+
+.toggleButton{
+  filter: invert(100%);
+}
 
 @media (width < 992px){
   .lineaColLight{
@@ -182,6 +269,12 @@ body{
   
   .lineaColDark{
     border-right: solid rgb(239, 239, 239) 0px;
+  }
+}
+
+@media (max-width: 576px){
+  .divBioAbsolute{
+    top: 50%;
   }
 }
 
