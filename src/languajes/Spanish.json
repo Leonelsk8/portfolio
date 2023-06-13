@@ -1,7 +1,7 @@
 {
   "Baner":{
     "SaludBaner": "Hola! soy Leonel 👋",
-    "DescBaner": "Desarrollador Web. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.",
+    "DescBaner": "Desarrollador Web Full Stack. Apasionado de la programación, quiero superarme cada día más y cumplir las expectativas de mis superiores.",
     "table1": "Proyectos",
     "table2": "Habilidades",
     "table3": "Nivel",
@@ -59,6 +59,16 @@
     "close": "Cerrar",
     "titleMod": "Contacto",
     "email": "Tu Email"
+  },
+  "about":{
+    "title": "Información",
+    "title2": "Pasa tiempos",
+    "parrafoInfo": "Mi nombre completo es Leonel Agustín Gomez, tengo 22 años y soy de Argentina-Tucumán. La carrera de Ingeniería en Sistemas me motivó a dedicarme a la programación. Por eso tomé un curso de programación Full Stack en Rolling Code School donde me certifiqué. Ya tenía algo de experiencia con C++, Java, HeidiSQL, MariaDB, Haskell, entre otros, gracias a la Ingeniería, donde comencé a practicar mi lógica con diagramas de flujo. Luego en Rolling Code estuve en un bootcamp intensivo de desarrollo web, haciendo proyectos grupales en cada módulo usando la metodología scrum y el tablero de trello para mantener la organización del equipo y del proyecto de manera profesional. Nos prepararon en un ambiente laboral y con las últimas tecnologías que se utilizan en la actualidad.",
+    "hobOne": "La edición de videos e imagenes, motivo que me ayudó bastante a mejorar mi creatividad audio visual.",
+    "hobTwo": "El Skateboarding, que también mejoró mi creatividad, ya que de eso se necesita para realizar diferentes combinaciones de trucos al patinar.",
+    "hobTree": "Dibujar, es algo que me entretiene bastante, buscando siempre un buen resultado del dibujo.",
+    "hobFor": "Escuchar música, lo hago seguido, me transporta a otro ambiente y me motiva, incluso mientras estoy programando.",
+    "head": "Sobre mi"
   }
 
 }

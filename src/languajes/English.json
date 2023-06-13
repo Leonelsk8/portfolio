@@ -1,7 +1,7 @@
 {
   "Baner":{
     "SaludBaner": "Hi! i'am Leonel 👋",
-    "DescBaner": "Web developer. Passionate about programming, I want to improve myself every day and meet the expectations of my superiors.",
+    "DescBaner": "Web Full Stack Developer. Passionate about programming, I want to improve myself every day and meet the expectations of my superiors.",
     "table1": "Projects",
     "table2": "Skills",
     "table3": "Level",
@@ -59,5 +59,15 @@
     "close": "Close",
     "titleMod": "Contact",
     "email": "Your Email"
+  },
+  "about":{
+    "title": "Information",
+    "title2": "Time Pass",
+    "parrafoInfo": "My full name is Leonel Agustín Gomez, I am 22 years old and I am from Argentina-Tucumán. The Systems Engineering degree motivated me to dedicate myself to programming. That is why I took a Full Stack programming course at Rolling Code School where I got certified. I already had some experience with C++, Java, HeidiSQL, MariaDB, Haskell, among others, thanks to Engineering, where I started practicing my logic with flowcharts. Then at Rolling Code I was in an intensive development bootcamp web, doing group projects in each module using the scrum methodology and the trello board to maintain the organization of the team and the project in a professional manner. They prepared us in a work environment and with the latest technologies used today.",
+    "hobOne": "The editing of videos and images, a reason that helped me a lot to improve my audiovisual creativity.",
+    "hobTwo": "Skateboarding, which also improved my creativity, since that's what you need to perform different combinations of tricks while skating.",
+    "hobTree": "Drawing is something that entertains me a lot, always looking for a good drawing result.",
+    "hobFor": "Listen to music, I do it often, it transports me to another environment and motivates me, even while I'm programming.",
+    "head": "About me"
   }
 }

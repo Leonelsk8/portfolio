@@ -1,0 +1,133 @@
+.RowCont{
+  width: 100%;
+  padding: 0 3%;
+}
+
+.image{
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image img{
+  height: 100%;
+  position: absolute;
+  left: -55%;
+}
+
+.paraffDark{
+  font-weight: 500;
+  background: repeating-linear-gradient(to right, #fff 0%, #fff 68%, #000000 68%, #000000 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paraffLight{
+  font-weight: 500;
+  background: repeating-linear-gradient(to right, #000000 0%, #000000 68%, #fff 68%, #fff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.divTitle{
+  width: max-content;
+}
+
+.opacityText{
+  opacity: 0%;
+}
+
+.typing{
+  overflow: hidden;
+  border-right: .1em solid transparent;
+  white-space: nowrap;
+  animation: typing 1.5s linear, parpaded 2.5s step-end;
+}
+
+.typing{
+  overflow: hidden;
+  border-right: .1em solid transparent;
+  white-space: nowrap;
+  animation: typing 1.5s linear, parpaded 2.5s step-end;
+}
+
+@keyframes typing{
+  0%{width:0;}
+  100%{width: 100%;}
+}
+
+@keyframes parpaded {
+  0%{
+    border-color: transparent;
+  }
+  10%{
+    border-color: rgb(0, 117, 119);
+  }
+  20%{
+    border-color: transparent;
+  }
+  30%{
+    border-color: rgb(0, 117, 119);
+  }
+  40%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: rgb(0, 117, 119);
+  }
+  60%{
+    border-color: transparent;
+  }
+  70%{
+    border-color: rgb(0, 117, 119);
+  }
+  80%{
+    border-color: transparent;
+  }
+  90%{
+    border-color: rgb(0, 117, 119);
+  }
+  100%{
+    border-color: transparent;
+  }
+}
+
+@media (width >= 992px){
+  .paraffDark{
+    font-weight: 500;
+    background: repeating-linear-gradient(to right, #fff 0%, #fff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .paraffLight{
+    font-weight: 500;
+    background: repeating-linear-gradient(to right, #000000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width: 576px){
+  .paraffDark{
+    font-weight: 500;
+    background: repeating-linear-gradient(to right, #fff 0%, #fff 71%, #000000 71%, #000000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .paraffLight{
+    font-weight: 500;
+    background: repeating-linear-gradient(to right, #000000 0%, #000000 71%, #fff 71%, #fff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

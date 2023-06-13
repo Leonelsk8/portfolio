@@ -11,6 +11,7 @@ import SectionSkill from './components/sectionSkills/SectionSkill';
 import SectionProjects from './components/sectionProjects/SectionProjects';
 import Footer from './components/footer/Footer';
 import { Link } from 'react-scroll';
+import AboutMe from './components/aboutMe/AboutMe';
 
 function App() {
   const [bgMode, setModebg] = useState('Dark');
@@ -52,6 +53,7 @@ function App() {
         <SectionBio/>
         <SectionSkill/>
         <SectionProjects/>
+        <AboutMe/>
         <Footer/>
       </section>
     </MyContext.Provider>

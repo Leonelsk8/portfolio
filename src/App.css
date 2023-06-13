@@ -217,15 +217,7 @@ body{
   opacity: 75%;
 }
 
-.divPrueba{
-  width: 40%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-}
+
 
 .divBioAbsolute{
   background-color: transparent;
@@ -252,10 +244,6 @@ body{
 
 .sectOverX{
   overflow-x: hidden;
-}
-
-.divPrueba img{
-  height: 100%;
 }
 
 .toggleButton{

@@ -51,6 +51,7 @@ function NavBar(){
             <Nav.Link className='active text-white' href="#home">{lang.Nav.home}</Nav.Link>
             <Link to="seccion3" smooth={true} className="me-lg-2 nav-link navLink">{lang.Nav.project}</Link>
             <Link to="seccion2" smooth={true} className="me-lg-2 nav-link navLink">{lang.Nav.skill}</Link>
+            <Link to="aboutSect" smooth={true} className="me-lg-2 nav-link navLink">{lang.about.head}</Link>
             <Nav.Link href="#link" className="me-lg-2 navLink" data-bs-toggle="modal" data-bs-target="#exampleModalNav">{lang.Nav.contact}</Nav.Link>
             <label className="interruptor">
               <input type="checkbox" onChange={()=>{themeChange()}} checked={bgMode === 'Dark' ? true : false}/>
