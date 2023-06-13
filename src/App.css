@@ -50,7 +50,7 @@ body{
 }
 
 .bgCardDark{
-  background-color: rgb(39, 37, 37);
+  background-color: #272525;
 }
 
 .bgCardLight{
@@ -231,7 +231,7 @@ body{
 }
 
 .divBioAbsoluteDark{
-  border-left:  1000px solid rgb(0, 117, 119);
+  border-left:  1000px solid #007577;
 }
 
 .divBioAbsoluteLight{

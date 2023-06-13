@@ -32,26 +32,24 @@ const AboutMe = () => {
             <h1 ref={ref} className={`text-center ${isVisible ? style.typing : style.opacityText}`}>{lang.about.head}</h1>
           </div>
         </div>
-        <Container fluid className='position-relative '>
-          <Row className={`${style.RowCont} bgCard${bgMode} py-5 me-0`}>
-            <Col xs={12} md={12} lg={7} className={`position-relative px-0`} style={{ zIndex: 1}}>
-              <div>
+        <Container fluid className='mt-5'>
+          <Row className={`${bgMode === 'Dark' ? style.RowBgDark : style.RowBgLight} py-5 flex-lg-column position-relative`}>
+            <Col xs={12} md={12} lg={7} className={`px-0`}>
+              <div className={style.PadCont}>
                 <h4 className={`text-${textMode}`}>{lang.about.title}</h4>
                 <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}>{lang.about.parrafoInfo}</p>
               </div>
-              <Row>
-                <Col xs={12} md={12} lg={9}>
-                  <div>
-                    <h4 className={`text-${textMode}`}>{lang.about.title2}</h4>
-                    <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-camera-reels-fill"></i> {lang.about.hobOne}</p>
-                    <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-emoji-laughing-fill"></i> {lang.about.hobTwo}</p>
-                    <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-pencil-fill"></i> {lang.about.hobTree}</p>
-                    <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-music-note"></i> {lang.about.hobFor}</p>
-                  </div>
-                </Col>
-              </Row>
             </Col>
-            <div className={`slim${bgMode} ${style.image}`}>
+            <Col xs={12} md={12} lg={5} className='px-0'>
+              <div className={style.PadCont}>
+                <h4 className={`text-${textMode}`}>{lang.about.title2}</h4>
+                <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-camera-reels-fill"></i> {lang.about.hobOne}</p>
+                <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-emoji-laughing-fill"></i> {lang.about.hobTwo}</p>
+                <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-pencil-fill"></i> {lang.about.hobTree}</p>
+                <p className={bgMode === 'Dark' ? style.paraffDark : style.paraffLight}><i className="bi bi-music-note"></i> {lang.about.hobFor}</p>
+              </div>
+            </Col>
+            <div className={`${style.image}`}>
               <Image src={foto} className='d-none d-lg-block' data-aos="fade-left"></Image>
             </div>
           </Row>

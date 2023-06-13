@@ -1,10 +1,18 @@
-.RowCont{
+.PadCont{
   width: 100%;
-  padding: 0 3%;
+  padding: 0 20px;
+}
+
+.RowBgDark{
+  background: repeating-linear-gradient(to right, #272525 0%, #272525 65%, #007577 65%, #007577 100%);
+}
+
+.RowBgLight{
+  background: repeating-linear-gradient(to right, #C8B6A6 0%, #C8B6A6 65%, #8D7B68 65%, #8D7B68 100%);
 }
 
 .image{
-  width: 35%;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -14,12 +22,12 @@
 .image img{
   height: 100%;
   position: absolute;
-  left: -55%;
+  left: 50%;
 }
 
 .paraffDark{
   font-weight: 500;
-  background: repeating-linear-gradient(to right, #fff 0%, #fff 68%, #000000 68%, #000000 100%);
+  background: repeating-linear-gradient(to right, #fff 0%, #fff calc(65% + 5.5px), #000000 calc(65% + 5.5px), #000000 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -27,7 +35,7 @@
 
 .paraffLight{
   font-weight: 500;
-  background: repeating-linear-gradient(to right, #000000 0%, #000000 68%, #fff 68%, #fff 100%);
+  background: repeating-linear-gradient(to right, #000000 0%, #000000 calc(65% + 5.5px), #fff calc(65% + 5.5px), #fff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -108,24 +116,6 @@
   .paraffLight{
     font-weight: 500;
     background: repeating-linear-gradient(to right, #000000 0%, #000000 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
-@media (max-width: 576px){
-  .paraffDark{
-    font-weight: 500;
-    background: repeating-linear-gradient(to right, #fff 0%, #fff 71%, #000000 71%, #000000 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .paraffLight{
-    font-weight: 500;
-    background: repeating-linear-gradient(to right, #000000 0%, #000000 71%, #fff 71%, #fff 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
