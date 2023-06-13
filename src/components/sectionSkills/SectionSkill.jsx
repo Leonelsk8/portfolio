@@ -9,10 +9,10 @@ import Html from './Logos/Html.svg';
 import JS from './Logos/Javascript.svg';
 import TS from './Logos/Typescript.svg';
 import reactLogo from './Logos/React.svg';
-import Vue from './Logos/Vue.svg';
+import Angular from './Logos/Angular.svg';
 import express from './Logos/Expressjs.svg';
 import Java from './Logos/Java.svg';
-import Chas from './Logos/Chas.svg';
+import Cplus from './Logos/CPlus.svg';
 import Node from './Logos/NodeJs.svg';
 import Git from './Logos/Git.svg';
 import Github from './Logos/Github.svg';
@@ -21,6 +21,8 @@ import Npm from './Logos/Npm.svg';
 import Visual from './Logos/VisualSC.svg';
 import Mongo from './Logos/Mongodb.svg';
 import Heidi from './Logos/Heidisql.svg';
+import tailwind from './Logos/Tailwindcss.svg';
+import mariaDb from './Logos/MariaDB.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -77,8 +79,8 @@ const SectionSkill = () => {
                 <div className={hover===5 ? `${style.pafec}` : 'd-none'}><p>Java</p></div>
               </div>
               <div className={`${style.imgSkill}`} onMouseEnter={()=> setHover(6)} onMouseLeave={() =>setHover(null)}>
-                <Image src={Chas} width={'100px'} height={'100px'} className={hover===6 ? `${style.imageS} m-3` : 'm-3'}></Image>
-                <div className={hover===6 ? `${style.pafec}` : 'd-none'}><p>C#</p></div>
+                <Image src={Cplus} width={'100px'} height={'100px'} className={hover===6 ? `${style.imageS} m-3` : 'm-3'}></Image>
+                <div className={hover===6 ? `${style.pafec}` : 'd-none'}><p>C++</p></div>
               </div>
             </div>
           </Col>
@@ -104,12 +106,16 @@ const SectionSkill = () => {
                 <div className={hover===8 ? `${style.pafec}` : 'd-none'}><p>Bootstrap</p></div>
               </div>
               <div className={`${style.imgSkill}`} onMouseEnter={()=> setHover(9)} onMouseLeave={() =>setHover(null)}>
-                <Image src={Vue} width={'100px'} height={'100px'} className={hover===9 ? `${style.imageS} m-3` : 'm-3'}></Image>
-                <div className={hover===9 ? `${style.pafec}` : 'd-none'}><p>Vue</p></div>
+                <Image src={Angular} width={'100px'} height={'100px'} className={hover===9 ? `${style.imageS} m-3` : 'm-3'}></Image>
+                <div className={hover===9 ? `${style.pafec}` : 'd-none'}><p>Angular</p></div>
               </div>
               <div className={`${style.imgSkill}`} onMouseEnter={()=> setHover(10)} onMouseLeave={() =>setHover(null)}>
                 <Image src={express} width={'100px'} height={'100px'} className={hover===10 ? `${style.imageS} m-3` : 'm-3'}></Image>
                 <div className={hover===10 ? `${style.pafec}` : 'd-none'}><p>ExpressJS</p></div>
+              </div>
+              <div className={`${style.imgSkill}`} onMouseEnter={()=> setHover(19)} onMouseLeave={() =>setHover(null)}>
+                <Image src={tailwind} width={'100px'} height={'100px'} className={hover===19 ? `${style.imageS} m-3` : 'm-3'}></Image>
+                <div className={hover===19 ? `${style.pafec}` : 'd-none'}><p>TailwindCss</p></div>
               </div>
             </div>
           </Col>
@@ -162,6 +168,10 @@ const SectionSkill = () => {
               <div className={`${style.imgSkill}`} onMouseEnter={()=> setHover(18)} onMouseLeave={() =>setHover(null)}>
                 <Image src={Heidi} width={'100px'} height={'100px'} className={hover===18 ? `${style.imageS} m-3` : 'm-3'}></Image>
                 <div className={hover===18 ? `${style.pafec}` : 'd-none'}><p>HeidiSQL</p></div>
+              </div>
+              <div className={`${style.imgSkill}`} onMouseEnter={()=> setHover(20)} onMouseLeave={() =>setHover(null)}>
+                <Image src={mariaDb} width={'100px'} height={'auto'} className={hover===20 ? `${style.imageS} m-3` : 'm-3'}></Image>
+                <div className={hover===20 ? `${style.pafec}` : 'd-none'}><p>MariaDB</p></div>
               </div>
             </div>
           </Col>
