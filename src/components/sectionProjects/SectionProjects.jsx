@@ -39,19 +39,19 @@ const SectionProjects = () => {
     return(
       <Row className='justify-content-center'>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalProj(5);}}><Image src={project5} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalProj(5);}}><Image src={project5} className={style.proj} width='100%'></Image></button>
         </Col>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalProj(4);}}><Image src={project4} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalProj(4);}}><Image src={project4} className={style.proj} width='100%'></Image></button>
         </Col>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalProj(3);}}><Image src={project3} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalProj(3);}}><Image src={project3} className={style.proj} width='100%'></Image></button>
         </Col>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalProj(2);}}><Image src={project2} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalProj(2);}}><Image src={project2} className={style.proj} width='100%'></Image></button>
         </Col>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalProj(1);}}><Image src={project1} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalProj(1);}}><Image src={project1} className={style.proj} width='100%'></Image></button>
         </Col>
       </Row>
     )
@@ -61,10 +61,10 @@ const SectionProjects = () => {
     return(
       <Row className='justify-content-center'>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalApp(3);}}><Image src={logic3} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalApp(3);}}><Image src={logic3} className={style.proj} width='100%'></Image></button>
         </Col>
         <Col sm={12} md={6} lg={3} data-aos="zoom-in">
-          <a type='button' onClick={()=>{relativeChange(); setModalApp(2);}}><Image src={logic2} className={style.proj} width='100%'></Image></a>
+          <button className='noButton' onClick={()=>{relativeChange(); setModalApp(2);}}><Image src={logic2} className={style.proj} width='100%'></Image></button>
         </Col>
       </Row>
     )
@@ -87,9 +87,9 @@ const SectionProjects = () => {
               </div>
             </div>
             <div className='mt-4'>
-              <a type='button' className={option===0 ? `${textMode==='white'?style.active_white:style.active_dark} me-3` : `${textMode==='white'?style.but_white:style.but_dark} me-3`} onClick={()=>setOption(0)}>{lang.Proj.webs}</a>
-              <a type='button' className={option===1 ? `${textMode==='white'?style.active_white:style.active_dark} me-3` : `${textMode==='white'?style.but_white:style.but_dark} me-3`} onClick={()=>setOption(1)}>{lang.Proj.app}</a>
-              <a type='button' className={option===2 ? `${textMode==='white'?style.active_white:style.active_dark}` : `${textMode==='white'?style.but_white:style.but_dark}`} onClick={()=>setOption(2)}>{lang.Proj.logic}</a>
+              <button className={option===0 ? `${textMode==='white'?style.active_white:style.active_dark} me-3 noButton` : `${textMode==='white'?style.but_white:style.but_dark} me-3 noButton`} onClick={()=>setOption(0)}>{lang.Proj.webs}</button>
+              <button className={option===1 ? `${textMode==='white'?style.active_white:style.active_dark} me-3 noButton` : `${textMode==='white'?style.but_white:style.but_dark} me-3 noButton`} onClick={()=>setOption(1)}>{lang.Proj.app}</button>
+              <button className={option===2 ? `${textMode==='white'?style.active_white:style.active_dark} noButton` : `${textMode==='white'?style.but_white:style.but_dark} noButton`} onClick={()=>setOption(2)}>{lang.Proj.logic}</button>
             </div>
           </Col>
           <Col lg={12} className='mt-3'>

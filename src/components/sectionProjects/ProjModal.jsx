@@ -41,9 +41,9 @@ const ProjModal = (props)=>{
               {
                 dates[indice].link2 === 'private' ? 
                 <button disabled className={style.buttdisabled}><FaGithub className={`me-2 ${style.iconsModal}`}/> {dates[indice].but2}</button> :
-                <a href={dates[indice].link2} target='_blank' className={`me-2 ${style.buttonModal}`}><FaGithub className={`me-2 ${style.iconsModal}`}/> {dates[indice].but2}</a>
+                <a href={dates[indice].link2} target='_blank' rel="noreferrer" className={`me-2 ${style.buttonModal}`}><FaGithub className={`me-2 ${style.iconsModal}`}/> {dates[indice].but2}</a>
               }
-              <a href={dates[indice].link} target='_blank' className={`${style.buttonModal}`}><BiGlobe className={`me-2 ${style.iconsModal}`}/> {dates[indice].but}</a>
+              <a href={dates[indice].link} target='_blank' rel="noreferrer" className={`${style.buttonModal}`}><BiGlobe className={`me-2 ${style.iconsModal}`}/> {dates[indice].but}</a>
             </div>
           </div>
         </div>

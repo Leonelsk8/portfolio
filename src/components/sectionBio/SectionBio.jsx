@@ -24,7 +24,7 @@ const SectionBio = () => {
                 <div className={`px-3 py-2 px-lg-2 ${style.divInfo}`}> 
                   <h1>{lang.Bio.welcome}</h1>
                   <h5>{lang.Bio.infoone}<br></br>{lang.Bio.infotwo}</h5>
-                  <a type='button' className={style.buttonPDF} href={cv} target={'_blank'}><FaFilePdf style={{fontSize: '1.4em'}}/> CV</a>
+                  <a type='button' className={style.buttonPDF} href={cv} target={'_blank'} rel="noreferrer"><FaFilePdf style={{fontSize: '1.4em'}}/> CV</a>
                 </div>
                 <div className={`mt-4 d-flex flex-wrap justify-content-between ${style.divProps}`}>
                   <div className='pe-3 pe-md-0'>

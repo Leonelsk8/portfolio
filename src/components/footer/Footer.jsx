@@ -27,19 +27,19 @@ const Footer = () => {
           <h2>{lang.Foot.RS}</h2>
           <div className='d-flex justify-content-center'>
             <div className='mt-4 d-flex flex-column align-items-start'>
-              <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' className={`Foot-Link text-${textMode}`}><FaWhatsapp  className={style.icons}/> Whatsapp</a>
-              <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' className={`Foot-Link text-${textMode} mt-3`}><FaFacebook  className={style.icons}/> Facebook</a>
-              <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' className={`Foot-Link text-${textMode} mt-3`}><FaInstagram  className={style.icons}/> Instagram</a>
+              <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' rel="noreferrer" className={`Foot-Link text-${textMode}`}><FaWhatsapp  className={style.icons}/> Whatsapp</a>
+              <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' rel="noreferrer" className={`Foot-Link text-${textMode} mt-3`}><FaFacebook  className={style.icons}/> Facebook</a>
+              <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' rel="noreferrer" className={`Foot-Link text-${textMode} mt-3`}><FaInstagram  className={style.icons}/> Instagram</a>
             </div>
             <div className='mt-4 ms-3 d-flex flex-column align-items-start'>
-              <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' className={`Foot-Link text-${textMode}`}><FaLinkedin  className={style.icons}/> Linkedin</a>
-              <a href='https://github.com/Leonelsk8' target='_blank' className={`Foot-Link text-${textMode} mt-3`}><FaGithub className={style.icons}/> Github</a>
+              <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' rel="noreferrer" className={`Foot-Link text-${textMode}`}><FaLinkedin  className={style.icons}/> Linkedin</a>
+              <a href='https://github.com/Leonelsk8' target='_blank' rel="noreferrer" className={`Foot-Link text-${textMode} mt-3`}><FaGithub className={style.icons}/> Github</a>
             </div>
           </div>
         </Col>
         <Col sm={12} md={12} lg={12} xl={12} className={hovChange === 1 ? `SlimFoot slim${bgMode}  shadow` : 'd-none'}>
           <div className='pt-4 text-end'>
-            <a type='button' onClick={()=>{setHover(null)}}><h2 className='text-dark'>X</h2></a>
+            <button className='noButton' onClick={()=>{setHover(null)}}><h2 className='text-dark'>X</h2></button>
           </div>
           <div className='text-center'>
             <h2>{lang.Foot.slim1}</h2>

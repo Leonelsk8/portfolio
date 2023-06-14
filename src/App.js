@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import esp from './languajes/Spanish.json';
@@ -35,9 +35,13 @@ function App() {
     relative ? setRelative(false) : setRelative(true);
   }
 
+  const visibleArrow = (value)=>{
+    setArrow(value);
+  }
+
   return (
     <>
-    <MyContext.Provider value={{textMode, bgMode, bgNav, lang, themeChange, langChange, relativeChange, setArrow}}>
+    <MyContext.Provider value={{textMode, bgMode, bgNav, lang, themeChange, langChange, relativeChange, visibleArrow}}>
       <NavBar/>
       {arrow ? 
         <section className='arrowUp'>

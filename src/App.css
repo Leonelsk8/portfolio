@@ -118,6 +118,12 @@ body{
   color: white;
 }
 
+.noButton{
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
 .Foot-Link{
   text-decoration: none;
   color: #bebebe;

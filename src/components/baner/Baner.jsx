@@ -1,4 +1,4 @@
-import React, {useState, useContext, useEffect} from 'react';
+import React, {useState, useContext} from 'react';
 import MyContext from '../../MyContext';
 import { Link } from 'react-scroll';
 import {Container, Row, Col, Image} from 'react-bootstrap';
@@ -10,7 +10,7 @@ import en from '../../assets/en.webp';
 
 
 function Baner(){
-  const {bgMode, textMode, lang, langChange, setArrow} = useContext(MyContext);
+  const {bgMode, lang, langChange, visibleArrow} = useContext(MyContext);
   const [idioma, setIdioma] = useState('esp');
   const [zIndexvalue, setZIndex] = useState(0);
   const [difuminated, setDifumi] = useState(false);
@@ -21,24 +21,23 @@ function Baner(){
     setIdioma(valor);
   }
 
-  useEffect(() => {
-    function handleScroll() {
-      if (window.scrollY > 80) {
-        setZIndex(-1);
-        setDifumi(true);
-        if(window.scrollY > 220){
-          setArrow(true);
-        }else{
-          setArrow(false);
-        }
-      } else {
-        setZIndex(0);
-        setDifumi(false);
-        setArrow(false);
+  
+  function handleScroll() {
+    if (window.scrollY > 80) {
+      setZIndex(-1);
+      setDifumi(true);
+      if(window.scrollY > 220){
+        visibleArrow(true);
+      }else{
+        visibleArrow(false);
       }
+    } else {
+      setZIndex(0);
+      setDifumi(false);
+      visibleArrow(false);
     }
-    window.addEventListener('scroll', handleScroll);
-  }, []);
+  }
+  window.addEventListener('scroll', handleScroll);
 
 
   return(

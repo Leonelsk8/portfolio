@@ -90,10 +90,10 @@ function NavBar(){
             <div>
               <p className='text-center'>También puedes contactarme por:</p>
               <div className='d-flex justify-content-center'>
-                <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' className={`Foot-Link text-white me-2`}><FaWhatsapp  className={style.icons}/></a>
-                <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' className={`Foot-Link text-white me-2`}><FaLinkedin  className={style.icons}/></a>
-                <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' className={`Foot-Link text-white me-2`}><FaFacebook  className={style.icons}/></a>
-                <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' className={`Foot-Link text-white`}><FaInstagram  className={style.icons}/></a>
+                <a href='https://api.whatsapp.com/send/?phone=543865678234' target='_blank' rel="noreferrer" className={`Foot-Link text-white me-2`}><FaWhatsapp  className={style.icons}/></a>
+                <a href='https://www.linkedin.com/in/leonel-gomez-266292268' target='_blank' rel="noreferrer" className={`Foot-Link text-white me-2`}><FaLinkedin  className={style.icons}/></a>
+                <a href='https://www.facebook.com/leonel.gomez.798' target='_blank' rel="noreferrer" className={`Foot-Link text-white me-2`}><FaFacebook  className={style.icons}/></a>
+                <a href='https://www.instagram.com/leonelgomez_sk8/?hl=es-la' target='_blank' rel="noreferrer" className={`Foot-Link text-white`}><FaInstagram  className={style.icons}/></a>
               </div>
             </div>
           </div>
